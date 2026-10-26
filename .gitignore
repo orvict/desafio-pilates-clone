@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+dev-server.mjs
+assets/manifest.json
