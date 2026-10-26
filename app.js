@@ -156,6 +156,9 @@ function renderResult() {
       <p class="fine">Suas respostas não são enviadas ou armazenadas. A compra é processada com segurança pela PerfectPay.</p>
     </div>`);
   document.querySelector("#restart").addEventListener("click", () => location.reload());
+  document.querySelector(".checkout").addEventListener("click", () => {
+    if (typeof window.fbq === "function") window.fbq("track", "InitiateCheckout");
+  });
 }
 
 renderAge();

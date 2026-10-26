@@ -18,4 +18,5 @@ Depois acesse `http://localhost:8080`.
 - Layout responsivo para desktop e celular
 - Ativos visuais locais
 - Checkout externo integrado à PerfectPay
-- Sem rastreadores ou coleta de respostas
+- Meta Pixel com eventos `PageView` e `InitiateCheckout`
+- Sem coleta ou armazenamento das respostas do quiz
