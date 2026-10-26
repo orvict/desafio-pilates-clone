@@ -151,8 +151,9 @@ function renderResult() {
         <div><span>Objetivo</span><strong>${state.goals[0] || "Bem-estar"}</strong></div>
         <div><span>Foco</span><strong>${state.focus.join(", ")}</strong></div>
       </div>
-      <button class="primary" id="restart">Refazer o quiz</button>
-      <p class="fine">Demonstração de interface. Nenhum dado é enviado ou armazenado.</p>
+      <a class="primary checkout" href="https://go.perfectpay.com.br/PPU38CQH3LB" target="_blank" rel="noopener noreferrer">Quero começar meu desafio</a>
+      <button class="restart" id="restart">Refazer o quiz</button>
+      <p class="fine">Suas respostas não são enviadas ou armazenadas. A compra é processada com segurança pela PerfectPay.</p>
     </div>`);
   document.querySelector("#restart").addEventListener("click", () => location.reload());
 }

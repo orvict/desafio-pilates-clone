@@ -17,4 +17,5 @@ Depois acesse `http://localhost:8080`.
 - Fluxo interativo com 8 etapas
 - Layout responsivo para desktop e celular
 - Ativos visuais locais
-- Sem rastreadores, formulários externos ou checkout
+- Checkout externo integrado à PerfectPay
+- Sem rastreadores ou coleta de respostas
