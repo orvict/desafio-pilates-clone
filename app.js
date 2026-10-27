@@ -271,21 +271,67 @@ function renderWelcome(step) {
 
 function renderOffer(step) {
   const name = answers.name || "Você";
-  shell(`<div class="offer">
-    <div class="discount-reveal"><span>OFERTA PERSONALIZADA PARA ${escapeHtml(name.toUpperCase())}</span><strong>${md(step.scratchPopup.revealTitle)}</strong><p>${md(step.scratchPopup.revealSubtitle)}</p><small>✓ ${md(step.scratchPopup.appliedNote)}</small></div>
-    <h1>${escapeHtml(name)}, ${md(step.offerTitle)} <span>${md(step.offerTitleAccent)}</span></h1>
-    <div class="timer-pill">${md(step.timerPillLabel)} <strong id="timer">10:00</strong></div>
-    <article class="price-card"><span>${md(step.singlePlan.recommendedLabel)}</span><h2>${md(step.singlePlan.title)}</h2><em>${md(step.singlePlan.badge)}</em><del>${md(step.singlePlan.oldPrice)}</del><strong>${md(step.singlePlan.newPrice)}</strong><p>${md(step.singlePlan.perDay)} por dia</p>
-      <a class="primary checkout" href="${escapeHtml(config.checkoutUrl)}" target="_blank" rel="noopener noreferrer">${md(step.ctaLabel)}</a><small>🔒 ${md(step.paymentTitle)}</small></article>
-    <p class="offer-disclaimer">${md(step.disclaimer)}</p>
-    <div class="social-proof"><h2>${md(step.social.title)}</h2><p>${md(step.social.caption)}</p><strong>★★★★★ ${md(step.social.rating)}</strong><p>${md(step.social.reviewsLine)}</p></div>
-    <h2>${md(step.comparison.title)}</h2><div class="comparison">${[[step.comparison.leftTitle,step.comparison.leftImage,step.comparison.leftBullets,"bad"],[step.comparison.rightTitle,step.comparison.rightImage,step.comparison.rightBullets,"good"]].map(([title,image,items,kind]) => `<div class="${kind}"><h3>${md(title)}</h3><img src="${escapeHtml(image)}" alt="">${items.map(item => `<p>${kind === "good" ? "✓" : "×"} ${md(item)}</p>`).join("")}</div>`).join("")}</div>
-    <h2>${md(step.reviews.title)}</h2><div class="reviews">${step.reviews.items.map(review => `<article><img src="${escapeHtml(review.image)}" alt=""><strong>${md(review.result)}</strong><h3>${md(review.name)}</h3><p>${md(review.text)}</p></article>`).join("")}</div>
-    <h2>${md(step.resultsTitle)}</h2><div class="checklist">${step.checklist.map(item => `<p>✓ ${escapeHtml(plain(item))}</p>`).join("")}</div>
-    <div class="guarantee"><img src="${escapeHtml(step.guarantee.image)}" alt=""><div><h2>${md(step.guarantee.title)}</h2><p>${md(step.guarantee.body)}</p></div></div>
-    <a class="primary checkout final-cta" href="${escapeHtml(config.checkoutUrl)}" target="_blank" rel="noopener noreferrer">${md(step.ctaLabel)}</a>
-    <div class="payment-icons">${step.paymentIcons.map(icon => `<img src="${escapeHtml(icon)}" alt="">`).join("")}</div>
-  </div><div class="sticky-offer"><span>${md(step.stickyBarLabel)} <b id="sticky-timer">10:00</b></span><a class="checkout" href="${escapeHtml(config.checkoutUrl)}" target="_blank" rel="noopener noreferrer">${md(step.stickyCtaLabel)}</a></div>`, "offer-screen wide");
+  const checkout = escapeHtml(config.checkoutUrl);
+  shell(`<div class="offer checkout-page">
+    <section class="offer-hero">
+      <span class="offer-kicker">✓ SEU PLANO PERSONALIZADO ESTÁ PRONTO</span>
+      <h1><span>${escapeHtml(name)},</span> comece hoje sua transformação com Pilates na Parede</h1>
+      <p>Um plano simples, progressivo e feito para a sua rotina — em casa e sem equipamentos.</p>
+      <div class="timer-pill">${md(step.timerPillLabel)} <strong id="timer">10:00</strong></div>
+    </section>
+
+    <div class="checkout-grid">
+      <article class="price-card checkout-card">
+        <div class="card-ribbon">${md(step.singlePlan.recommendedLabel)}</div>
+        <span class="lifetime">✓ ${md(step.singlePlan.badge)}</span>
+        <h2>${md(step.singlePlan.title)}</h2>
+        <ul class="included-list">
+          <li><i>✓</i><span>Plano completo de <strong>28 dias</strong></span></li>
+          <li><i>✓</i><span>Treinos rápidos para fazer <strong>em casa</strong></span></li>
+          <li><i>✓</i><span>Exercícios sem aparelhos e para iniciantes</span></li>
+          <li><i>✓</i><span>Sugestões nutricionais personalizadas</span></li>
+          <li><i>✓</i><span>Acesso imediato e vitalício</span></li>
+        </ul>
+        <div class="price-zone"><div><small>De ${md(step.singlePlan.oldPrice)} por apenas</small><strong>${md(step.singlePlan.newPrice)}</strong><span>${md(step.singlePlan.perDay)} por dia</span></div><b>ECONOMIZE<br>R$ 70,00</b></div>
+        <a class="primary checkout pulse" href="${checkout}" target="_blank" rel="noopener noreferrer">QUERO COMEÇAR AGORA</a>
+        <div class="trust-row"><span>🔒 Compra segura</span><span>⚡ Acesso imediato</span><span>↩ 90 dias de garantia</span></div>
+        <small class="one-time">Pagamento único • sem mensalidades • sem renovação automática</small>
+      </article>
+
+      <aside class="order-summary">
+        <span>RESUMO DO PEDIDO</span><h3>Pilates na Parede</h3>
+        <div><span>Desafio de 28 dias</span><strong>${md(step.singlePlan.oldPrice)}</strong></div>
+        <div class="discount"><span>Desconto especial</span><strong>- R$ 70,00</strong></div>
+        <div class="total"><span>Total hoje</span><strong>${md(step.singlePlan.newPrice)}</strong></div>
+        <p>Você paga uma única vez e recebe acesso vitalício.</p>
+        <a class="primary checkout" href="${checkout}" target="_blank" rel="noopener noreferrer">FINALIZAR COMPRA</a>
+        <small>🔐 Seus dados são protegidos</small>
+      </aside>
+    </div>
+
+    <section class="what-you-get"><span class="section-tag">TUDO QUE VOCÊ RECEBE</span><h2>Seu plano completo para sair do zero e continuar</h2><div>${[
+      ["▦","Calendário de 28 dias","Uma rotina clara para saber exatamente o que fazer a cada dia."],
+      ["▶","Treinos guiados","Movimentos simples de Pilates na Parede, mesmo para iniciantes."],
+      ["🥗","Orientação alimentar","Sugestões práticas para apoiar seu objetivo sem dietas impossíveis."],
+      ["⌂","Treine onde quiser","Sem academia, sem aparelhos e no horário que cabe na sua rotina."]
+    ].map(([icon,title,text]) => `<article><i>${icon}</i><h3>${title}</h3><p>${text}</p></article>`).join("")}</div></section>
+
+    <div class="social-proof"><span class="section-tag">COMUNIDADE REAL</span><h2>${md(step.social.title)}</h2><p>${md(step.social.caption)}</p><strong>★★★★★ <b>${md(step.social.rating)}</b></strong><p>${md(step.social.reviewsLine)}</p></div>
+    <section class="comparison-section"><span class="section-tag">UM MÉTODO SUSTENTÁVEL</span><h2>${md(step.comparison.title)}</h2><div class="comparison">${[[step.comparison.leftTitle,step.comparison.leftImage,step.comparison.leftBullets,"bad"],[step.comparison.rightTitle,step.comparison.rightImage,step.comparison.rightBullets,"good"]].map(([title,image,items,kind]) => `<div class="${kind}"><h3>${md(title)}</h3><img src="${escapeHtml(image)}" alt="">${items.map(item => `<p>${kind === "good" ? "✓" : "×"} ${md(item)}</p>`).join("")}</div>`).join("")}</div></section>
+    <section class="testimonial-section"><span class="section-tag">RESULTADOS DAS ALUNAS</span><h2>${md(step.reviews.title)}</h2><div class="reviews">${step.reviews.items.map(review => `<article><img src="${escapeHtml(review.image)}" alt=""><div><strong>${md(review.result)}</strong><h3>${md(review.name)}</h3><p>${md(review.text)}</p></div></article>`).join("")}</div></section>
+
+    <section class="decision-card"><h2>${md(step.resultsTitle)}</h2><div class="checklist">${step.checklist.map(item => `<p><i>✓</i><span>${escapeHtml(plain(item))}</span></p>`).join("")}</div><a class="primary checkout pulse" href="${checkout}" target="_blank" rel="noopener noreferrer">SIM, QUERO MEU PLANO</a></section>
+    <div class="guarantee"><img src="${escapeHtml(step.guarantee.image)}" alt=""><div><span class="section-tag">RISCO ZERO</span><h2>${md(step.guarantee.title)}</h2><p>${md(step.guarantee.body)}</p></div></div>
+
+    <section class="faq"><span class="section-tag">DÚVIDAS FREQUENTES</span><h2>Antes de começar</h2>
+      <details open><summary>É assinatura ou pagamento único?</summary><p>Pagamento único. Não existe mensalidade nem renovação automática.</p></details>
+      <details><summary>Quando recebo o acesso?</summary><p>Logo após a confirmação do pagamento, você recebe as instruções de acesso.</p></details>
+      <details><summary>Preciso de equipamentos?</summary><p>Não. O plano foi pensado para ser feito em casa usando apenas uma parede.</p></details>
+      <details><summary>E se eu não gostar?</summary><p>Você conta com garantia de 90 dias, conforme a política de reembolso.</p></details>
+    </section>
+
+    <section class="secure-close"><span>🔒 PAGAMENTO SEGURO</span><h2>Comece seu desafio hoje</h2><p>${md(step.disclaimer)}</p><a class="primary checkout final-cta pulse" href="${checkout}" target="_blank" rel="noopener noreferrer">OBTER MEU PLANO POR ${md(step.singlePlan.newPrice)}</a><div class="payment-icons">${step.paymentIcons.map(icon => `<img src="${escapeHtml(icon)}" alt="">`).join("")}</div></section>
+  </div><div class="sticky-offer"><span>${md(step.stickyBarLabel)} <b id="sticky-timer">10:00</b></span><div><strong>${md(step.singlePlan.newPrice)}</strong><a class="checkout" href="${checkout}" target="_blank" rel="noopener noreferrer">${md(step.stickyCtaLabel)}</a></div></div>`, "offer-screen wide");
   let seconds = step.countdownSeconds || 600;
   const tick = () => {
     const label = `${String(Math.floor(seconds / 60)).padStart(2,"0")}:${String(seconds % 60).padStart(2,"0")}`;
