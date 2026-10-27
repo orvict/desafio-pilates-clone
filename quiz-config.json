@@ -1,0 +1,1904 @@
+{
+  "id": "simple-pilates",
+  "slug": "simple",
+  "locale": "pt-BR",
+  "uiVariant": "simple",
+  "checkoutUrl": "https://go.perfectpay.com.br/PPU38CQH3LB",
+  "brand": {
+    "logoText": "PILATES NA PAREDE",
+    "productName": "Pilates contra a parede"
+  },
+  "totalPhases": 3,
+  "steps": [
+    {
+      "id": "age",
+      "type": "sp-landing",
+      "title": "Desafio de 21 dias de Pilates na Parede",
+      "subtitle": "COM BASE NA SUA **IDADE**",
+      "options": [
+        {
+          "id": "18-29",
+          "label": "Idade: 18-29",
+          "image": "assets/full/e01/age-18-PVOjhzuv.webp"
+        },
+        {
+          "id": "30-39",
+          "label": "Idade: 30-39",
+          "image": "assets/full/e01/age-30-DRJPDiFS.webp"
+        },
+        {
+          "id": "40-49",
+          "label": "Idade: 40-49",
+          "image": "assets/full/e01/age-40-D_xl7LVq.webp"
+        },
+        {
+          "id": "50+",
+          "label": "Idade: 50+",
+          "image": "assets/full/e01/age-50-CCKEckDS.webp"
+        }
+      ]
+    },
+    {
+      "id": "tried-wall-pilates",
+      "type": "sp-single",
+      "showLocale": true,
+      "title": "Você já praticou pilates contra a parede?",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Sim"
+        },
+        {
+          "id": "no",
+          "label": "Não"
+        }
+      ],
+      "bottomImage": "assets/full/e02/wall_pilates_7a3ccf7b8f.webp",
+      "bottomImageWidth": 400
+    },
+    {
+      "id": "info-crush",
+      "type": "sp-info",
+      "image": "assets/full/e03/young_pilates_banner_1_824b23be51.webp",
+      "title": "Você vai arrasar!",
+      "paragraphs": [
+        "Nosso programa de pilates contra a parede é uma opção de exercício fácil e eficaz para pessoas de todos os níveis.",
+        "Nós ajudaremos você a **ficar em forma exercitando-se em casa** e sem equipamentos!"
+      ],
+      "ctaLabel": "Entendi"
+    },
+    {
+      "id": "goals",
+      "type": "sp-multi",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Primeiro, diga-nos em que você gostaria de se concentrar:",
+      "subtitle": "Escolha todas que se aplicam",
+      "options": [
+        {
+          "id": "lose-weight",
+          "label": "Perder peso",
+          "icon": "assets/full/e04/Sample_Image_f013eb34ce.png"
+        },
+        {
+          "id": "tone-body",
+          "label": "Definir o corpo e manter o peso",
+          "icon": "assets/full/e04/weights_ce3187a4d5.png"
+        },
+        {
+          "id": "posture",
+          "label": "Melhorar minha postura",
+          "icon": "assets/full/e04/better_posture_9ba1291d3d.png"
+        },
+        {
+          "id": "stress",
+          "label": "Reduzir o estresse",
+          "icon": "assets/full/e04/stress_7be7777d47.png"
+        },
+        {
+          "id": "flexibility",
+          "label": "Melhorar minha flexibilidade",
+          "icon": "assets/full/e04/flexibility_pink_40f2aa90cf.png"
+        },
+        {
+          "id": "energy",
+          "label": "Aumentar minha energia",
+          "icon": "assets/full/e04/get_fit_49b2c6bf68.png"
+        },
+        {
+          "id": "not-sure",
+          "label": "Não tenho certeza",
+          "icon": "assets/full/e04/not_sure_345163b9df.png"
+        }
+      ]
+    },
+    {
+      "id": "body-now",
+      "type": "sp-image-grid",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Como você descreve o seu corpo?",
+      "options": [
+        {
+          "id": "thin",
+          "label": "Magro",
+          "image": "assets/full/e05/physical_build_thin_5e0ed8bb92.webp"
+        },
+        {
+          "id": "mid",
+          "label": "Médio",
+          "image": "assets/full/e05/physical_build_mid_abf97d77b4.webp"
+        },
+        {
+          "id": "plump",
+          "label": "Cheinho",
+          "image": "assets/full/e05/physical_build_plump_aaa6f7115d.webp"
+        },
+        {
+          "id": "plus",
+          "label": "Plus size",
+          "image": "assets/full/e05/physical_build_plus_8783fb7a79.webp"
+        }
+      ]
+    },
+    {
+      "id": "dream-body",
+      "type": "sp-image-grid",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Qual é o seu \"corpo dos sonhos\"?",
+      "options": [
+        {
+          "id": "slim",
+          "label": "Magro",
+          "image": "assets/full/e06/dream_body_slim_daf4707cd7.webp"
+        },
+        {
+          "id": "toned",
+          "label": "Definido",
+          "image": "assets/full/e06/dream_body_toned_e5d8eb248c.webp"
+        },
+        {
+          "id": "curvy",
+          "label": "Com curvas",
+          "image": "assets/full/e06/dream_body_curvy_28f6d97a30.webp"
+        },
+        {
+          "id": "smaller",
+          "label": "Algumas medidas a menos",
+          "image": "assets/full/e06/dream_body_few_sizes_smaller_ff73044026.webp"
+        }
+      ],
+      "callout": {
+        "emoji": "🤙",
+        "title": "Conte conosco para chegar lá",
+        "body": "O pilates contra a parede é o caminho para conquistar o corpo que você sempre quis: mais força, mais leveza e muito mais autoconfiança."
+      }
+    },
+    {
+      "id": "target-zones",
+      "type": "sp-multi",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Em que áreas você mais quer se concentrar?",
+      "subtitle": "Escolha todas que se aplicam",
+      "options": [
+        {
+          "id": "stomach",
+          "label": "Barriga",
+          "photo": "assets/full/e07/target_zones_stomach_slim_54d205048d.png"
+        },
+        {
+          "id": "glutes",
+          "label": "Glúteos",
+          "photo": "assets/full/e07/target_zones_glutes_slim_7e8269e775.png"
+        },
+        {
+          "id": "legs",
+          "label": "Pernas",
+          "photo": "assets/full/e07/target_zones_legs_slim_125bc3225b.png"
+        },
+        {
+          "id": "arms",
+          "label": "Braços",
+          "photo": "assets/full/e07/target_zones_arms_slim.png"
+        },
+        {
+          "id": "fullbody",
+          "label": "Todo o corpo",
+          "photo": "assets/full/e07/target_zones_fullbody_slim_ca6c9662ce.png"
+        }
+      ]
+    },
+    {
+      "id": "weight-pattern",
+      "type": "sp-single",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Como o seu peso costuma variar?",
+      "options": [
+        {
+          "id": "gain-fast",
+          "label": "Ganho peso rápido, mas demoro para perder"
+        },
+        {
+          "id": "easy",
+          "label": "Ganho e perco peso com facilidade"
+        },
+        {
+          "id": "hard-gain",
+          "label": "Tenho dificuldade de ganhar peso ou massa muscular"
+        }
+      ],
+      "bottomImage": "assets/full/e08/typically_w_change_e24fc9772e.webp",
+      "bottomImageWidth": 430,
+      "bottomImageAlign": "center"
+    },
+    {
+      "id": "best-shape",
+      "type": "sp-single",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "footerCta": true,
+      "title": "Quando foi a última vez que você esteve na melhor forma física de sua vida?",
+      "options": [
+        {
+          "id": "<1y",
+          "label": "Há menos de um ano",
+          "icon": "assets/full/e09/icon-think.png"
+        },
+        {
+          "id": "1-2y",
+          "label": "Entre 1 e 2 anos atrás",
+          "icon": "assets/full/e09/icon-wow.png"
+        },
+        {
+          "id": ">3y",
+          "label": "Há mais de 3 anos",
+          "icon": "assets/full/e09/icon-tears.png"
+        },
+        {
+          "id": "never",
+          "label": "Nunca",
+          "icon": "assets/full/e09/icon-nope.png"
+        }
+      ],
+      "callout": {
+        "emoji": "🤙",
+        "title": "Vamos transformar — ficar mais forte do que antes",
+        "body": "O pilates contra a parede ajuda você a recomeçar, reiniciar e se sentir novamente no seu melhor."
+      }
+    },
+    {
+      "id": "typical-day",
+      "type": "sp-single",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "footerCta": true,
+      "title": "Como é um dia normal para você?",
+      "options": [
+        {
+          "id": "sitting",
+          "label": "Eu passo a maior parte do dia sentada",
+          "icon": "assets/full/e10/icon-laptop.png"
+        },
+        {
+          "id": "some-movement",
+          "label": "Eu me movimento de vez em quando",
+          "icon": "assets/full/e10/icon-walk.png"
+        },
+        {
+          "id": "standing",
+          "label": "Passo o dia em pé",
+          "icon": "assets/full/e10/icon-sketchers.png"
+        }
+      ]
+    },
+    {
+      "id": "activities",
+      "type": "sp-multi",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Você faz alguma dessas atividades?",
+      "subtitle": "Escolha todas que se aplicam",
+      "options": [
+        {
+          "id": "dog",
+          "label": "Passear com o cachorro",
+          "icon": "assets/full/e11/icon-dog.png"
+        },
+        {
+          "id": "stairs",
+          "label": "Subir escadas com frequência",
+          "icon": "assets/full/e11/icon-ladder.png"
+        },
+        {
+          "id": "kids",
+          "label": "Fazer atividades com seus filhos",
+          "icon": "assets/full/e11/icon-family.png"
+        },
+        {
+          "id": "chores",
+          "label": "Tarefas domésticas",
+          "icon": "assets/full/e11/icon-house.png"
+        },
+        {
+          "id": "none",
+          "label": "Não",
+          "icon": "assets/full/e11/icon-rolling-eyes.png",
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "id": "walks",
+      "type": "sp-single",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "footerCta": true,
+      "title": "Com que frequência você faz caminhadas?",
+      "options": [
+        {
+          "id": "daily",
+          "label": "Quase todos os dias"
+        },
+        {
+          "id": "3-4w",
+          "label": "3 a 4 vezes por semana"
+        },
+        {
+          "id": "1-2w",
+          "label": "1 a 2 vezes por semana"
+        },
+        {
+          "id": "monthly",
+          "label": "Uma vez por mês ou menos"
+        }
+      ]
+    },
+    {
+      "id": "flexibility",
+      "type": "sp-single",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "footerCta": true,
+      "title": "Você consegue se sentar e tocar a ponta dos seus pés?",
+      "subtitle": "Como está sua flexibilidade?",
+      "options": [
+        {
+          "id": "limited",
+          "label": "Não chego nem perto",
+          "photo": "assets/full/e13/flexibility_limited_172a0a983b.png"
+        },
+        {
+          "id": "moderate",
+          "label": "Quase, mas não consigo",
+          "photo": "assets/full/e13/flexibility_moderate_4b904dfde7.png"
+        },
+        {
+          "id": "full",
+          "label": "Sim, com facilidade",
+          "photo": "assets/full/e13/flexibility_full_80562349e5.png"
+        }
+      ]
+    },
+    {
+      "id": "info-support",
+      "type": "sp-info",
+      "image": "assets/full/e14/young_pilates_banner_4_b3cf9ccf2b.webp",
+      "title": "Estamos aqui para te apoiar!",
+      "paragraphs": [
+        "Faça exercícios suaves e adequados para iniciantes, que ajudarão você a relaxar com segurança e a aumentar sua mobilidade ao longo do tempo.",
+        "Nunca é tarde demais para se sentir bem em seu corpo."
+      ],
+      "ctaLabel": "Entendi"
+    },
+    {
+      "id": "statement-stairs",
+      "type": "sp-statement",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Você se identifica com esta afirmação?",
+      "image": "assets/full/e15/activity-ladder-2.webp",
+      "statement": "Fico sem fôlego ao subir um lance de escada"
+    },
+    {
+      "id": "statement-giveup",
+      "type": "sp-statement",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Você se identifica com esta afirmação?",
+      "image": "assets/full/e16/flag_a34e1d3c73.png",
+      "statement": "Eu costumo desistir facilmente quando os exercícios são muito difíceis ou entediantes"
+    },
+    {
+      "id": "statement-choose",
+      "type": "sp-statement",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Você se identifica com esta afirmação?",
+      "image": "assets/full/e17/young_pilates_sport_a14a6f5510.webp",
+      "statement": "Não sei bem como escolher exercícios que sejam adequados para mim"
+    },
+    {
+      "id": "good-news",
+      "type": "sp-chart-info",
+      "title": "Boa notícia: você pode participar do programa!",
+      "subtitle": "Parece que você combina bem com o Pilates na Parede... Agora é hora de superar suas metas.",
+      "chartImage": "assets/full/e18/eligibility_pt_BR_9017195e56.png",
+      "infoCard": {
+        "bold": "Com base no histórico de dados do Pilates na Parede para mulheres na faixa dos 20 anos",
+        "text": "Veja os primeiros resultados já na primeira semana e mantenha o ritmo rumo ao seu peso ideal!"
+      },
+      "ctaLabel": "Incrível!"
+    },
+    {
+      "id": "height",
+      "type": "sp-measure",
+      "kind": "height",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Qual é a sua altura?",
+      "units": [
+        "cm"
+      ],
+      "consentHtml": "Eu aceito que o Pilates na Parede processe meus dados de saúde (como altura e peso) para fornecer serviços, de acordo com a <a href=\"#\" onclick=\"return false\">Política de Privacidade</a>."
+    },
+    {
+      "id": "current-weight",
+      "type": "sp-measure",
+      "kind": "weight",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Qual é o seu peso atual?",
+      "units": [
+        "kg"
+      ],
+      "bmiCard": true
+    },
+    {
+      "id": "target-weight",
+      "type": "sp-measure",
+      "kind": "target-weight",
+      "section": "MEU PERFIL",
+      "spPhase": 1,
+      "title": "Beleza! E qual é o seu peso desejado?",
+      "subtitle": "Tente fazer uma estimativa. Você pode alterar isso mais tarde.",
+      "units": [
+        "kg"
+      ]
+    },
+    {
+      "id": "processing-preliminary",
+      "type": "sp-processing",
+      "variant": "bar-top",
+      "label": "Processamento preliminar",
+      "durationMs": 4600
+    },
+    {
+      "id": "checkpoint",
+      "type": "sp-checkpoint",
+      "title": "Seu ponto de partida",
+      "fallbackBmi": 22.9,
+      "bmiNote": {
+        "title": "IMC saudável",
+        "body": "Sua base atual é excelente para iniciar a definição muscular e chegar ao corpo ideal."
+      },
+      "facts": [
+        {
+          "icon": "activity",
+          "label": "Nível de atividade física",
+          "value": "Iniciante"
+        },
+        {
+          "icon": "lifestyle",
+          "label": "Estilo de vida",
+          "value": "Principalmente ativo"
+        },
+        {
+          "icon": "target",
+          "label": "Zonas-alvo",
+          "value": "Barriga, Glúteos"
+        },
+        {
+          "icon": "goal",
+          "label": "Meta",
+          "value": "Perder 5 kg"
+        }
+      ],
+      "image": "assets/full/e22/body-type-overweight-updated-Ct8dzjhq.webp",
+      "ctaLabel": "Continuar"
+    },
+    {
+      "id": "info-goal-plan",
+      "type": "sp-info",
+      "image": "assets/full/e23/Onboarding_Goal_Plan_Screen_aeb2dd2f83.webp",
+      "title": "Um objetivo sem um plano não é nada mais que um desejo",
+      "paragraphs": [
+        "Mulheres na faixa dos 20 anos têm **necessidades específicas** em relação à saúde e atividades físicas.",
+        "Vamos explorar mais sobre o que torna você especial, para criarmos um programa de exercícios de pilates contra a parede que combine com você!"
+      ],
+      "ctaLabel": "Entendi"
+    },
+    {
+      "id": "intensity",
+      "type": "sp-single",
+      "section": "MEU PLANO",
+      "spPhase": 2,
+      "footerCta": true,
+      "title": "Escolha o seu nível de intensidade exercícios de pilates",
+      "options": [
+        {
+          "id": "easy",
+          "label": "Algo simples e fácil",
+          "icon": "assets/full/e24/icon-ok.png"
+        },
+        {
+          "id": "sweat",
+          "label": "Não tenho medo de suar",
+          "icon": "assets/full/e24/icon-fire.png"
+        },
+        {
+          "id": "challenge",
+          "label": "Eu aceito um desafio",
+          "icon": "assets/full/e24/icon-medal.png"
+        }
+      ],
+      "callout": {
+        "emoji": "✅",
+        "title": "Ajustaremos seu programa para que ele se adapte às suas necessidades!"
+      }
+    },
+    {
+      "id": "exercise-frequency",
+      "type": "sp-single",
+      "section": "MEU PLANO",
+      "spPhase": 2,
+      "footerCta": true,
+      "title": "Quantas vezes por semana você se exercita?",
+      "options": [
+        {
+          "id": "1-2",
+          "label": "1 a 2 vezes"
+        },
+        {
+          "id": "2-4",
+          "label": "2 a 4 vezes"
+        },
+        {
+          "id": "5+",
+          "label": "5 vezes ou mais"
+        }
+      ]
+    },
+    {
+      "id": "exercise-duration",
+      "type": "sp-single",
+      "section": "MEU PLANO",
+      "spPhase": 2,
+      "footerCta": true,
+      "title": "Por quanto tempo você pode se exercitar?",
+      "options": [
+        {
+          "id": "10-15",
+          "label": "10 a 15 minutos"
+        },
+        {
+          "id": "15-25",
+          "label": "15 a 25 minutos"
+        },
+        {
+          "id": "25+",
+          "label": "25 minutos ou mais"
+        },
+        {
+          "id": "not-sure",
+          "label": "Não tenho certeza"
+        }
+      ]
+    },
+    {
+      "id": "info-easy-exercise",
+      "type": "sp-info",
+      "image": "assets/full/e27/Onboarding_Easy_Exercise_Is_Ok_Screen_faa3066576.webp",
+      "title": "Você não precisa fazer exercícios intensos — simples assim!",
+      "paragraphs": [
+        "Você sabia que **excesso de exercício intenso** pode aumentar o estresse e dificultar sua perda de peso?",
+        "O Pilates na Parede adapta seu programa **de acordo com o seu nível de conforto** e te ajuda a alcançar suas metas de perda de peso, sem exageros."
+      ],
+      "ctaLabel": "Entendi"
+    },
+    {
+      "id": "physical-issues",
+      "type": "sp-image-grid",
+      "section": "MEU PLANO",
+      "spPhase": 2,
+      "multi": true,
+      "title": "Algum dos itens a seguir é um problema para você?",
+      "subtitle": "O seu programa pode abordar esses aspectos para garantir seu conforto e segurança",
+      "options": [
+        {
+          "id": "back",
+          "label": "Coluna frágil",
+          "image": "assets/full/e28/struggling-back.png"
+        },
+        {
+          "id": "knees",
+          "label": "Dor nos joelhos",
+          "image": "assets/full/e28/struggling-knees.png"
+        },
+        {
+          "id": "hips",
+          "label": "Rigidez nos quadris",
+          "image": "assets/full/e28/struggling-hips.png"
+        },
+        {
+          "id": "none",
+          "label": "Nenhuma das opções",
+          "image": "assets/full/e28/struggling-none.png",
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "id": "info-care",
+      "type": "sp-info",
+      "image": "assets/full/e29/young_pilates_banner_7_796daa0810.webp",
+      "title": "Nos cuidamos de você!",
+      "paragraphs": [
+        "Você encontrará muitos **exercícios suaves que fortalecerão seus joelhos**.",
+        "Com joelhos mais fortes, você poderá desfrutar de caminhadas mais longas, menos tensão e mais confiança no dia a dia!"
+      ],
+      "ctaLabel": "Entendi"
+    },
+    {
+      "id": "cellulite",
+      "type": "sp-single",
+      "section": "MEU PLANO",
+      "spPhase": 2,
+      "footerCta": true,
+      "title": "Você sofre com celulite?",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Sim",
+          "icon": "assets/full/e30/icon-v.png"
+        },
+        {
+          "id": "no",
+          "label": "Não",
+          "icon": "assets/full/e30/icon-x.png"
+        },
+        {
+          "id": "little",
+          "label": "Um pouco",
+          "icon": "assets/full/e30/icon-almost.png"
+        }
+      ]
+    },
+    {
+      "id": "workout-place",
+      "type": "sp-single",
+      "section": "MEU PLANO",
+      "spPhase": 2,
+      "footerCta": true,
+      "title": "Onde você prefere se exercitar?",
+      "options": [
+        {
+          "id": "home",
+          "label": "Em casa",
+          "photo": "assets/full/e31/home_31e18b4f2c.png"
+        },
+        {
+          "id": "outside",
+          "label": "Ao ar livre",
+          "photo": "assets/full/e31/outside_8c3fe728dd.png"
+        },
+        {
+          "id": "gym",
+          "label": "Na academia",
+          "photo": "assets/full/e31/gym_cddd7088e0.png"
+        },
+        {
+          "id": "anywhere",
+          "label": "Em qualquer lugar",
+          "photo": "assets/full/e31/no_pref_2e15930feb.png"
+        }
+      ]
+    },
+    {
+      "id": "info-anywhere",
+      "type": "sp-info",
+      "image": "assets/full/e32/Onboarding_Lose_Weight_Anywhere_Screen_0d208b66a4.webp",
+      "title": "Perca peso a qualquer hora e em qualquer lugar",
+      "paragraphs": [
+        "O local onde você treina não determina o sucesso de sua perda de peso — o que realmente importa é a **frequência e o esforço** que você dedica aos seus exercícios. Você não precisa de equipamentos sofisticados ou de uma academia para atingir suas metas."
+      ],
+      "ctaLabel": "Entendi"
+    },
+    {
+      "id": "rate-stretching",
+      "type": "sp-exercise-rating",
+      "section": "MEU PLANO",
+      "spPhase": 2,
+      "title": "Gosta ou não gosta",
+      "image": "assets/full/e33/stretching_8b5792fc02.webp",
+      "exerciseLabel": "Alongamento",
+      "icons": [
+        "assets/full/e33/dislike_ff6a2c6ef8.png",
+        "assets/full/e33/neutral_35a9b36151.png",
+        "assets/full/e33/like_57907a4435.png"
+      ],
+      "labels": [
+        "Não curti",
+        "Neutro",
+        "Curti"
+      ]
+    },
+    {
+      "id": "rate-lunge",
+      "type": "sp-exercise-rating",
+      "section": "MEU PLANO",
+      "spPhase": 2,
+      "title": "Gosta ou não gosta",
+      "image": "assets/full/e34/forward_lunge_6f7731299d.webp",
+      "exerciseLabel": "Afundo",
+      "icons": [
+        "assets/full/e34/dislike_ff6a2c6ef8.png",
+        "assets/full/e34/neutral_35a9b36151.png",
+        "assets/full/e34/like_57907a4435.png"
+      ],
+      "labels": [
+        "Não curti",
+        "Neutro",
+        "Curti"
+      ]
+    },
+    {
+      "id": "rate-wall-sit",
+      "type": "sp-exercise-rating",
+      "section": "MEU PLANO",
+      "spPhase": 2,
+      "title": "Gosta ou não gosta",
+      "image": "assets/full/e35/wall_sit_ebbaa5eae6.webp",
+      "exerciseLabel": "Agachamento na parede",
+      "icons": [
+        "assets/full/e35/dislike_ff6a2c6ef8.png",
+        "assets/full/e35/neutral_35a9b36151.png",
+        "assets/full/e35/like_57907a4435.png"
+      ],
+      "labels": [
+        "Não curti",
+        "Neutro",
+        "Curti"
+      ]
+    },
+    {
+      "id": "rate-squat",
+      "type": "sp-exercise-rating",
+      "section": "MEU PLANO",
+      "spPhase": 2,
+      "title": "Gosta ou não gosta",
+      "image": "assets/full/e36/bodyweight_squat_59f42856f3.webp",
+      "exerciseLabel": "Agachamento",
+      "icons": [
+        "assets/full/e36/dislike_ff6a2c6ef8.png",
+        "assets/full/e36/neutral_35a9b36151.png",
+        "assets/full/e36/like_57907a4435.png"
+      ],
+      "labels": [
+        "Não curti",
+        "Neutro",
+        "Curti"
+      ]
+    },
+    {
+      "id": "processing-answers",
+      "type": "sp-processing",
+      "variant": "icon",
+      "image": "assets/full/e36/analyze_answers_img_75d3f12c33.svg",
+      "title": "Analisando suas respostas...",
+      "text": "Ajustando seu programa para adaptá-lo às suas preferências e nível de condicionamento físico.",
+      "durationMs": 4600
+    },
+    {
+      "id": "plan-details",
+      "type": "sp-plan-details",
+      "title": "Detalhes do seu programa",
+      "headerImage": "assets/full/e37/plan_details_balanced_header_cd6f9ff32c.png",
+      "difficulty": {
+        "label": "Nível de dificuldade",
+        "active": "EQUILIBRADO",
+        "note": "Este nível combina com o seu condicionamento e atividades — ideal para começar de forma leve e **progredir gradualmente**.",
+        "image": "assets/full/e37/plan_details_1_PTBR_d500a0edef.png"
+      },
+      "personalizedTitle": "Personalizado",
+      "personalized": [
+        {
+          "icon": "place",
+          "label": "Local",
+          "value": "Em casa"
+        },
+        {
+          "icon": "clock",
+          "label": "Duração",
+          "value": "15 a 25 minutos"
+        },
+        {
+          "icon": "calendar",
+          "label": "Frequência",
+          "value": "2x/semana"
+        },
+        {
+          "icon": "spark",
+          "label": "Foco",
+          "value": "Perda de peso"
+        }
+      ],
+      "ctaLabel": "Continuar"
+    },
+    {
+      "id": "water",
+      "type": "sp-single",
+      "section": "LIFESTYLE",
+      "spPhase": 2,
+      "footerCta": true,
+      "title": "Quantos copos d'água você bebe por dia?",
+      "options": [
+        {
+          "id": "coffee",
+          "label": "Eu bebo principalmente café ou chá",
+          "icon": "assets/full/e38/water-coffee.png"
+        },
+        {
+          "id": "2",
+          "label": "Cerca de 2 copos d'água",
+          "icon": "assets/full/e38/water-2.png"
+        },
+        {
+          "id": "2-6",
+          "label": "Entre 2 e 6 copos d'água",
+          "icon": "assets/full/e38/water-2-6.png"
+        },
+        {
+          "id": "6+",
+          "label": "Mais de 6 copos d'água",
+          "icon": "assets/full/e38/water-6-more.png"
+        }
+      ]
+    },
+    {
+      "id": "energy-level",
+      "type": "sp-single",
+      "section": "LIFESTYLE",
+      "spPhase": 2,
+      "footerCta": true,
+      "title": "Como você descreve o seu nível de energia durante o dia?",
+      "options": [
+        {
+          "id": "low",
+          "label": "Energia? Me sinto como um bicho-preguiça",
+          "icon": "assets/full/e39/energy-low.png"
+        },
+        {
+          "id": "mid",
+          "label": "Instável: às vezes tenho altos e baixos",
+          "icon": "assets/full/e39/energy-m.png"
+        },
+        {
+          "id": "high",
+          "label": "Ótimo! Estou quase sempre cheia de energia",
+          "icon": "assets/full/e39/energy-full.png"
+        }
+      ]
+    },
+    {
+      "id": "energy-chart",
+      "type": "sp-chart-info",
+      "title": "Você tá com uma energia incrível — vamos manter assim!",
+      "chartImage": "assets/full/e40/br_weekly_energy_level_249caee080.png",
+      "paragraphs": [
+        "Esses exercícios melhoram a mobilidade do corpo, o bem-estar e fortalecem seus músculos, elevando naturalmente seus níveis de energia de dentro para fora.",
+        "Nós queremos que você tenha energia para viver sua vida ao máximo!"
+      ],
+      "ctaLabel": "Entendi"
+    },
+    {
+      "id": "period-difficulty",
+      "type": "sp-single",
+      "section": "LIFESTYLE",
+      "spPhase": 3,
+      "title": "Você tem dificuldade de se exercitar durante a menstruação?",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Sim"
+        },
+        {
+          "id": "no",
+          "label": "Não"
+        }
+      ],
+      "bottomImage": "assets/full/e41/exercise_challenge_1ab8489177.webp",
+      "bottomImageWidth": 400
+    },
+    {
+      "id": "info-energy-adjust",
+      "type": "sp-info",
+      "image": "assets/full/e42/young_pilates_banner_5_23eace61ed.webp",
+      "title": "Nós ajustaremos o seu programa de acordo com seus níveis de energia",
+      "paragraphs": [
+        "Nossos níveis de energia aumentam e diminuem, portanto, **sua rotina de exercícios deve ser flexível**.",
+        "Nosso programa personalizado de pilates contra a parede"
+      ],
+      "ctaLabel": "Continuar"
+    },
+    {
+      "id": "sleep-hours",
+      "type": "sp-single",
+      "section": "LIFESTYLE",
+      "spPhase": 3,
+      "footerCta": true,
+      "title": "Quanto tempo você costuma dormir?",
+      "options": [
+        {
+          "id": "<5",
+          "label": "Menos de 5 horas"
+        },
+        {
+          "id": "5-6",
+          "label": "Entre 5 e 6 horas"
+        },
+        {
+          "id": "7-8",
+          "label": "Entre 7 e 8 horas"
+        },
+        {
+          "id": "8+",
+          "label": "Mais de 8 horas"
+        }
+      ]
+    },
+    {
+      "id": "sleep-improve",
+      "type": "sp-multi",
+      "section": "LIFESTYLE",
+      "spPhase": 3,
+      "title": "Há algo que você deseja melhorar no seu sono?",
+      "subtitle": "Escolha todas que se aplicam",
+      "options": [
+        {
+          "id": "none",
+          "label": "Não, eu durmo bem",
+          "exclusive": true
+        },
+        {
+          "id": "falling-asleep",
+          "label": "Dificuldade de dormir"
+        },
+        {
+          "id": "tired",
+          "label": "Acordo cansada"
+        },
+        {
+          "id": "waking-up",
+          "label": "Acordo várias vezes à noite"
+        },
+        {
+          "id": "hot-flashes",
+          "label": "Sinto ondas de calor/suores noturnos"
+        },
+        {
+          "id": "irregular",
+          "label": "Tenho sono irregular"
+        }
+      ]
+    },
+    {
+      "id": "info-sleep",
+      "type": "sp-info",
+      "image": "assets/full/e45/Onboarding_Sleep_Is_Key_Screen_a6448c01a0.webp",
+      "title": "Vamos te ajudar a dormir melhor — assim perder peso fica mais fácil",
+      "paragraphs": [
+        "Dormir mal pode aumentar os desejos e bagunçar os hormônios da fome. Nosso plano ajuda a **acalmar sua mente, melhorar a qualidade do sono e manter um progresso constante** — um passo de cada vez."
+      ],
+      "ctaLabel": "Entendi"
+    },
+    {
+      "id": "diet",
+      "type": "sp-multi",
+      "section": "NUTRIÇÃO",
+      "spPhase": 3,
+      "title": "Você segue algum destes tipos de alimentação?",
+      "subtitle": "Escolha todas que se aplicam",
+      "options": [
+        {
+          "id": "none",
+          "label": "Não",
+          "icon": "assets/full/e46/diet-no.png",
+          "exclusive": true
+        },
+        {
+          "id": "low-carb",
+          "label": "Baixa em carboidratos",
+          "icon": "assets/full/e46/icon-salad.png"
+        },
+        {
+          "id": "keto",
+          "label": "Cetogênica",
+          "icon": "assets/full/e46/diet-keto.png"
+        },
+        {
+          "id": "vegetarian",
+          "label": "Vegetariana",
+          "icon": "assets/full/e46/diet-vegetarian.png"
+        },
+        {
+          "id": "vegan",
+          "label": "Vegana",
+          "icon": "assets/full/e46/diet-plant.png"
+        },
+        {
+          "id": "pescatarian",
+          "label": "Pescetariana",
+          "icon": "assets/full/e46/diet-pescatarian.png"
+        },
+        {
+          "id": "lactose-free",
+          "label": "Sem lactose",
+          "icon": "assets/full/e46/diet-lactose-free.png"
+        },
+        {
+          "id": "gluten-free",
+          "label": "Sem glúten",
+          "icon": "assets/full/e46/diet-gluten-free.png"
+        },
+        {
+          "id": "other",
+          "label": "Outra",
+          "icon": "assets/full/e46/diet-other.png"
+        }
+      ]
+    },
+    {
+      "id": "fruits-veggies",
+      "type": "sp-single",
+      "section": "NUTRIÇÃO",
+      "spPhase": 3,
+      "footerCta": true,
+      "title": "Como está o seu consumo de frutas e legumes?",
+      "subtitle": "Geralmente, quantas frutas ou legumes você come diariamente?",
+      "options": [
+        {
+          "id": "few",
+          "label": "Nenhuma ou algumas",
+          "icon": "assets/full/e47/fruit-none.png"
+        },
+        {
+          "id": "some",
+          "label": "Um bocado",
+          "icon": "assets/full/e47/fruit-apple.png"
+        },
+        {
+          "id": "lots",
+          "label": "Sou praticamente um coelho",
+          "icon": "assets/full/e47/fruit-carrot.png"
+        }
+      ]
+    },
+    {
+      "id": "between-meals",
+      "type": "sp-single",
+      "section": "SAÚDE E SEGURANÇA",
+      "spPhase": 3,
+      "footerCta": true,
+      "checkboxRight": true,
+      "title": "Como você se sente entre as refeições?",
+      "options": [
+        {
+          "id": "sleepy",
+          "label": "Sinto sonolência quando estou com fome",
+          "icon": "assets/full/e48/sleepy_when_hungry_7717d4c140.png"
+        },
+        {
+          "id": "tired",
+          "label": "Sinto cansaço depois de comer",
+          "icon": "assets/full/e48/tired_after_eating_599a067e19.png"
+        },
+        {
+          "id": "energized",
+          "label": "Sempre tenho muita energia",
+          "icon": "assets/full/e48/always_energized_e1019624c5.png"
+        }
+      ]
+    },
+    {
+      "id": "habits",
+      "type": "sp-multi",
+      "section": "SAÚDE E SEGURANÇA",
+      "spPhase": 3,
+      "title": "Você tem algum desses hábitos?",
+      "options": [
+        {
+          "id": "wine",
+          "label": "Eu gosto de tomar vinho",
+          "icon": "assets/full/e49/habits-wine.png"
+        },
+        {
+          "id": "late-night",
+          "label": "Eu como tarde da noite",
+          "icon": "assets/full/e49/habits-eat-late.png"
+        },
+        {
+          "id": "sweets",
+          "label": "Adoro comer doces",
+          "icon": "assets/full/e49/habits-sweet.png"
+        },
+        {
+          "id": "snacks",
+          "label": "Eu devoro lanches",
+          "icon": "assets/full/e49/habits-snack.png"
+        },
+        {
+          "id": "soda",
+          "label": "Não consigo viver sem refrigerantes",
+          "icon": "assets/full/e49/habits-soda.png"
+        },
+        {
+          "id": "salty",
+          "label": "Eu gosto de coisas salgadas e crocantes",
+          "icon": "assets/full/e49/habits-salt.png"
+        },
+        {
+          "id": "screentime",
+          "label": "Faço refeições olhando para alguma tela",
+          "icon": "assets/full/e49/habits-screentime.png"
+        },
+        {
+          "id": "none",
+          "label": "Nenhuma das anteriores",
+          "icon": "assets/full/e49/habits-none.png",
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "id": "processing-habits",
+      "type": "sp-processing",
+      "variant": "gif",
+      "image": "assets/full/e49/c53cfc974ec442139b114464e4ec9486_7ce873344b.webp",
+      "title": "Analisando suas respostas...",
+      "text": "Ao reconhecer esses padrões, você já está no caminho para um estilo de vida mais saudável e consciente.",
+      "durationMs": 4600
+    },
+    {
+      "id": "blockers",
+      "type": "sp-blockers",
+      "title": "Seus bloqueadores de perda de peso",
+      "subtitle": "Com base nas suas respostas, nós identificamos os **principais fatores que dificultam a sua perda de peso.**",
+      "cardTitle": "O que te impede?",
+      "bars": [
+        {
+          "emoji": "😴",
+          "label": "Maus hábitos de sono",
+          "percent": 38,
+          "color": "#F9B9C4"
+        },
+        {
+          "emoji": "📕",
+          "label": "Alimentação emocional",
+          "percent": 27,
+          "color": "#F9D3AE"
+        },
+        {
+          "emoji": "🙉",
+          "label": "Sobrecarga e estresse",
+          "percent": 22,
+          "color": "#F3E3B2"
+        },
+        {
+          "emoji": "🧠",
+          "label": "Autocrítica",
+          "percent": 13,
+          "color": "#EBD8D4"
+        }
+      ],
+      "cardFooter": "Usaremos essas informações para criar **um programa que funciona — só para você.**",
+      "detail": {
+        "emoji": "😴",
+        "title": "Maus hábitos de sono",
+        "body": "Você está descansando menos do que o seu corpo precisa — e isso pode dificultar a perda de peso. Ao sentir cansaço, seus sinais de fome, energia e metabolismo ficam desregulados. Isso não é falta de disciplina; é biologia. Vamos te ajudar a criar hábitos simples para dormir melhor e se sentir mais no controle do seu corpo."
+      },
+      "ctaLabel": "Continuar"
+    },
+    {
+      "id": "health-conditions",
+      "type": "sp-multi",
+      "section": "SAÚDE E SEGURANÇA",
+      "spPhase": 3,
+      "title": "Você já recebeu o diagnóstico de algum destes problemas de saúde?",
+      "subtitle": "Estas informações são apenas para sua segurança.",
+      "options": [
+        {
+          "id": "none",
+          "label": "Não",
+          "exclusive": true
+        },
+        {
+          "id": "diabetes-1",
+          "label": "Diabetes tipo 1"
+        },
+        {
+          "id": "diabetes-2",
+          "label": "Diabetes tipo 2"
+        },
+        {
+          "id": "cardio",
+          "label": "Doenças cardiovasculares"
+        },
+        {
+          "id": "hypertension",
+          "label": "Hipertensão"
+        },
+        {
+          "id": "cholesterol",
+          "label": "Colesterol alto"
+        },
+        {
+          "id": "mental",
+          "label": "Problemas de saúde mental"
+        },
+        {
+          "id": "kidney",
+          "label": "Problemas renais"
+        },
+        {
+          "id": "cancer",
+          "label": "Câncer"
+        },
+        {
+          "id": "gastro",
+          "label": "Transtornos gastrointestinais"
+        },
+        {
+          "id": "disability",
+          "label": "Deficiência física"
+        }
+      ]
+    },
+    {
+      "id": "eating-disorder",
+      "type": "sp-single",
+      "section": "SAÚDE E SEGURANÇA",
+      "spPhase": 3,
+      "footerCta": true,
+      "title": "Você já recebeu diagnóstico de algum transtorno alimentar?",
+      "subtitle": "Esta informação é para sua segurança.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Sim"
+        },
+        {
+          "id": "no",
+          "label": "Não"
+        }
+      ]
+    },
+    {
+      "id": "medication",
+      "type": "sp-single",
+      "section": "SAÚDE E SEGURANÇA",
+      "spPhase": 3,
+      "footerCta": true,
+      "title": "Você toma algum medicamento?",
+      "subtitle": "Estas informações são apenas para sua segurança.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Sim"
+        },
+        {
+          "id": "no",
+          "label": "Não"
+        }
+      ]
+    },
+    {
+      "id": "pregnancy",
+      "type": "sp-single",
+      "section": "SAÚDE E SEGURANÇA",
+      "spPhase": 3,
+      "footerCta": true,
+      "title": "Você está grávida no momento?",
+      "subtitle": "Estas informações são apenas para sua segurança.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Sim"
+        },
+        {
+          "id": "breastfeeding",
+          "label": "Não, mas atualmente estou amamentando"
+        },
+        {
+          "id": "planning",
+          "label": "Não, mas estou planejando estar nos próximos 6 meses"
+        },
+        {
+          "id": "no",
+          "label": "Não"
+        }
+      ]
+    },
+    {
+      "id": "mobility-restriction",
+      "type": "sp-single",
+      "section": "SAÚDE E SEGURANÇA",
+      "spPhase": 3,
+      "footerCta": true,
+      "title": "Você tem alguma restrição física ou de mobilidade?",
+      "subtitle": "Estas informações são apenas para sua segurança.",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Sim"
+        },
+        {
+          "id": "no",
+          "label": "Não"
+        },
+        {
+          "id": "prefer-not",
+          "label": "Prefiro não responder"
+        }
+      ]
+    },
+    {
+      "id": "menopause",
+      "type": "sp-single",
+      "section": "SAÚDE E SEGURANÇA",
+      "spPhase": 3,
+      "footerCta": true,
+      "title": "Você já passou pela menopausa?",
+      "subtitle": "As mudanças hormonais podem impactar o seu metabolismo e necessidades nutricionais",
+      "options": [
+        {
+          "id": "no",
+          "label": "Não"
+        },
+        {
+          "id": "during",
+          "label": "Estou passando pela menopausa"
+        },
+        {
+          "id": "after",
+          "label": "Já passei pela menopausa"
+        },
+        {
+          "id": "not-sure",
+          "label": "Não sei"
+        },
+        {
+          "id": "prefer-not",
+          "label": "Prefiro não responder"
+        }
+      ]
+    },
+    {
+      "id": "info-life-stage",
+      "type": "sp-info",
+      "image": "assets/full/e57/Onboarding_Cycle_Syncing_Screen_982456a929.webp",
+      "title": "Perda de peso em cada etapa da vida",
+      "paragraphs": [
+        "A menopausa pode tornar a perda de peso mais difícil devido às **mudanças hormonais** que afetam os padrões de armazenamento de gordura e a sensibilidade à insulina.",
+        "Exercícios regulares e uma boa nutrição podem ajudar a **lidar com essas mudanças**, tornando os objetivos de perda de peso e bem-estar mais fáceis de alcançar."
+      ],
+      "ctaLabel": "Avançar"
+    },
+    {
+      "id": "info-almost",
+      "type": "sp-info",
+      "image": "assets/full/e58/adone_3241def29f.webp",
+      "kicker": "Está quase pronto!",
+      "title": "Falta pouco para você desvendar um caminho sob medida para conquistar o seu corpo perfeito",
+      "paragraphs": [
+        "Vamos explorar as suas motivações!"
+      ],
+      "ctaLabel": "Vamos concluir!"
+    },
+    {
+      "id": "main-reason",
+      "type": "sp-single",
+      "section": "QUASE LÁ",
+      "spPhase": 3,
+      "footerCta": true,
+      "title": "Qual é o principal motivo para você querer entrar em forma?",
+      "options": [
+        {
+          "id": "confidence",
+          "label": "Me sentir mais confiante no meu corpo"
+        },
+        {
+          "id": "health",
+          "label": "Me sentir mais saudável e com mais energia"
+        },
+        {
+          "id": "looks",
+          "label": "Mudar meu visual"
+        },
+        {
+          "id": "clothes",
+          "label": "Caber melhor em minhas roupas"
+        },
+        {
+          "id": "other",
+          "label": "Outra opção"
+        }
+      ]
+    },
+    {
+      "id": "weight-gain-events",
+      "type": "sp-multi",
+      "section": "QUASE LÁ",
+      "spPhase": 3,
+      "title": "Você ganhou peso devido a algum dos acontecimentos abaixo nos últimos anos?",
+      "subtitle": "Estas informações são apenas para sua segurança.",
+      "options": [
+        {
+          "id": "work",
+          "label": "Trabalho sob pressão"
+        },
+        {
+          "id": "busy",
+          "label": "Vida atarefada"
+        },
+        {
+          "id": "divorce",
+          "label": "Divórcio ou rompimento"
+        },
+        {
+          "id": "pregnancy",
+          "label": "Gravidez ou mudanças pós-parto"
+        },
+        {
+          "id": "metabolism",
+          "label": "Metabolismo mais lento devido ao envelhecimento"
+        },
+        {
+          "id": "stress",
+          "label": "Estresse ou questões de saúde mental"
+        },
+        {
+          "id": "financial",
+          "label": "Dificuldades financeiras"
+        },
+        {
+          "id": "covid",
+          "label": "Pandemia da Covid-19"
+        },
+        {
+          "id": "injury",
+          "label": "Lesão ou invalidez"
+        },
+        {
+          "id": "none",
+          "label": "Nenhuma das opções",
+          "exclusive": true
+        }
+      ]
+    },
+    {
+      "id": "motivations",
+      "type": "sp-multi",
+      "section": "QUASE LÁ",
+      "spPhase": 3,
+      "title": "O que motiva você a praticar exercícios?",
+      "subtitle": "Escolha todas que se aplicam",
+      "options": [
+        {
+          "id": "health",
+          "label": "Melhorar a saúde"
+        },
+        {
+          "id": "immunity",
+          "label": "Impulsionar o meu sistema imunológico"
+        },
+        {
+          "id": "looks",
+          "label": "Melhorar a aparência"
+        },
+        {
+          "id": "strength",
+          "label": "Desenvolver força e resistência"
+        },
+        {
+          "id": "postpartum",
+          "label": "Perder os pneuzinhos pós-parto"
+        },
+        {
+          "id": "stress",
+          "label": "Gerenciar o estresse/melhorar o humor"
+        },
+        {
+          "id": "example",
+          "label": "Ser um bom exemplo para outras pessoas"
+        },
+        {
+          "id": "other",
+          "label": "Outra opção"
+        }
+      ]
+    },
+    {
+      "id": "motivation-level",
+      "type": "sp-single",
+      "section": "QUASE LÁ",
+      "spPhase": 3,
+      "footerCta": true,
+      "title": "E agora, como está sua motivação para alcançar seu peso desejado?",
+      "options": [
+        {
+          "id": "ready",
+          "label": "Estou 100% preparada"
+        },
+        {
+          "id": "hopeful",
+          "label": "Tenho esperança de que dará certo"
+        },
+        {
+          "id": "not-sure",
+          "label": "Não tenho certeza"
+        },
+        {
+          "id": "slow",
+          "label": "Estou pegando leve"
+        }
+      ]
+    },
+    {
+      "id": "past-obstacles",
+      "type": "sp-multi",
+      "section": "QUASE LÁ",
+      "spPhase": 3,
+      "title": "O que dificultou para você manter a motivação e se exercitar no passado?",
+      "options": [
+        {
+          "id": "no-results",
+          "label": "Eu não vi resultados aparentes"
+        },
+        {
+          "id": "regained",
+          "label": "Eu perdia peso, mas recuperava"
+        },
+        {
+          "id": "no-plan",
+          "label": "Eu não tinha um plano"
+        },
+        {
+          "id": "rigid",
+          "label": "Os planos anteriores eram rígidos demais"
+        },
+        {
+          "id": "no-time",
+          "label": "Faltava tempo para treinar"
+        },
+        {
+          "id": "bad-guidance",
+          "label": "Orientação ineficaz"
+        },
+        {
+          "id": "no-obstacles",
+          "label": "Não encontrei obstáculos"
+        },
+        {
+          "id": "other",
+          "label": "Outro motivo"
+        }
+      ]
+    },
+    {
+      "id": "info-why-quit",
+      "type": "sp-info",
+      "image": "assets/full/e64/Onboarding_Weight_Loss_Challenge_Banner_Screen_ac0c67db64.webp",
+      "title": "Por que as pessoas desistem do processo de perda de peso?",
+      "paragraphs": [
+        "**O principal motivo é que elas começam rápido demais.**",
+        "É justamente por isso que o objetivo principal do nosso programa é ajudar você a fazer mudanças duradouras em seu estilo de vida, para que você possa transformar seu corpo e desfrutar de uma saúde próspera — **para sempre**."
+      ],
+      "ctaLabel": "Entendi"
+    },
+    {
+      "id": "explore-more",
+      "type": "sp-multi",
+      "section": "QUASE LÁ",
+      "spPhase": 3,
+      "title": "Enquanto personalizamos sua jornada, o que mais você deseja explorar?",
+      "subtitle": "Nossa metodologia vai além da perda de peso, visando",
+      "subtitleAccent": "melhorar o seu humor, saúde e bem-estar.",
+      "options": [
+        {
+          "id": "energy",
+          "label": "Aumento do nível de energia"
+        },
+        {
+          "id": "digestion",
+          "label": "Compreensão do processo digestivo"
+        },
+        {
+          "id": "stress",
+          "label": "Redução do estresse"
+        },
+        {
+          "id": "flexibility",
+          "label": "Melhora da flexibilidade"
+        },
+        {
+          "id": "posture",
+          "label": "Melhora da postura"
+        },
+        {
+          "id": "endurance",
+          "label": "Melhora da resistência"
+        },
+        {
+          "id": "libido",
+          "label": "Aumento da libido"
+        },
+        {
+          "id": "immunity",
+          "label": "Fortalecimento do sistema imunológico"
+        }
+      ]
+    },
+    {
+      "id": "pace",
+      "type": "sp-single",
+      "footerCta": true,
+      "titleTop": "Seu plano de ação está pronto!",
+      "title": "Ele foi criado para funcionar no seu ritmo. Então, quão depressa você quer entrar em forma?",
+      "options": [
+        {
+          "id": "fast",
+          "label": "O mais rápido possível"
+        },
+        {
+          "id": "steady",
+          "label": "Devagar e constante"
+        },
+        {
+          "id": "middle",
+          "label": "No meio-termo"
+        }
+      ],
+      "calloutOnSelect": true,
+      "callout": {
+        "emoji": "✍️",
+        "title": "Entendido! Vamos personalizar seu plano pra combinar com você."
+      }
+    },
+    {
+      "id": "info-great-job",
+      "type": "sp-info",
+      "image": "assets/full/e67/Onboarding_Great_Job_Banner_Screen_06e152dbfe.webp",
+      "title": "Muito bem!",
+      "paragraphs": [
+        "Você tem uma base forte! Usaremos isso para criar recomendações personalizadas."
+      ],
+      "ctaLabel": "Tudo pronto!"
+    },
+    {
+      "id": "processing-final",
+      "type": "sp-processing",
+      "variant": "trustpilot",
+      "socialTitle": "1.8 mi de mulheres usam o Pilates na Parede",
+      "verifiedLabel": "EMPRESA VERIFICADA",
+      "review": {
+        "title": "O Pilates na Parede está aprovado!",
+        "body": "Desde que comecei a usar o aplicativo, eu já notei uma diferença. O peso está diminuindo, mas o mais importante é que me sinto bem melhor. Estou escolhendo alimentos mais saudáveis e com mais energia.",
+        "author": "Yuna"
+      },
+      "trustpilotLine": "Ideal • 21.269 avaliações",
+      "bottomLabel": "Criando seu programa de personalizado de pilates",
+      "durationMs": 6000
+    },
+    {
+      "id": "email",
+      "type": "sp-email",
+      "pillLabel": "Seu plano de ação está pronto",
+      "title": "Insira o seu e-mail para receber o seu programa de treino personalizado",
+      "inputLabel": "Seu e-mail",
+      "ctaLabel": "Ver meu plano",
+      "mapImage": "assets/full/e68/world-map-EXNTrbko.svg",
+      "mapStat": {
+        "number": "1,8 milhão",
+        "caption": "de mulheres já fazem parte"
+      },
+      "disclaimers": [
+        "Ao enviar seu endereço de e-mail, você também pode receber e-mails de marketing do Pilates na Parede sobre nossos serviços. Você pode cancelar a inscrição a qualquer momento.",
+        "O seu uso do Pilates na Parede está vinculado aos <a href=\"#\" onclick=\"return false\">Termos de Uso</a> e à <a href=\"#\" onclick=\"return false\">Política de Privacidade</a>."
+      ]
+    },
+    {
+      "id": "before-after",
+      "type": "sp-before-after",
+      "section": "QUASE LÁ",
+      "spPhase": 3,
+      "titleLine1": "Conheça sua futura versão.",
+      "titleAccent": "Confiante",
+      "titleRest": "em seu próprio corpo",
+      "image": "assets/full/e69/obese-DHN9KHQi.webp",
+      "nowLabel": "Agora",
+      "goalLabel": "Meta",
+      "rows": [
+        {
+          "label": "Peso",
+          "now": "55 kg",
+          "goal": "50 kg"
+        },
+        {
+          "label": "Gordura corporal",
+          "now": "27-32%",
+          "goal": "14-20%"
+        }
+      ],
+      "strength": {
+        "label": "Força",
+        "now": 1,
+        "goal": 4
+      },
+      "footnote": "Este é o seu objetivo — **nós vamos te guiar até lá, um hábito de cada vez.**",
+      "ctaLabel": "Continuar"
+    },
+    {
+      "id": "name",
+      "type": "sp-name",
+      "title": "Qual seu nome?",
+      "ctaLabel": "Ver meu plano"
+    },
+    {
+      "id": "plan-projection",
+      "type": "sp-plan-projection",
+      "titleAfterName": ", alcance seu objetivo de",
+      "subtitle": "E conquiste o corpo magro dos seus sonhos",
+      "bullets": [
+        {
+          "icon": "scale",
+          "text": "Emagreça e tonifique com treinos suaves, mas eficientes",
+          "bold": true
+        },
+        {
+          "icon": "home",
+          "text": "Treinos para queima de gordura, sem equipamentos"
+        },
+        {
+          "icon": "food",
+          "text": "Sugestões nutricionais personalizadas para alcançar melhores resultados"
+        },
+        {
+          "icon": "chat",
+          "text": "Assistente de bem-estar personalizado 24/7"
+        }
+      ],
+      "ctaLabel": "Obter meu plano"
+    },
+    {
+      "id": "welcome",
+      "type": "sp-welcome",
+      "screens": [
+        "Bem-vindo(a) ao Pilates na Parede,\n**{{NAME}}!**",
+        "Só **10 minutos** por dia. É tudo o que você precisa para começar.",
+        "Até **{{DATE_PLUS_3}}**, você vai sentir a diferença"
+      ],
+      "screenDurationMs": 1900
+    },
+    {
+      "id": "offer",
+      "type": "sp-offer",
+      "backRedirectUrl": "https://wvltrack.com/t/teste-backredirect",
+      "countdownSeconds": 600,
+      "stickyBarLabel": "75% de desconto reservado por:",
+      "stickyCtaLabel": "OBTER MEU PLANO",
+      "scratchPopup": {
+        "titleAfterName": ", raspe para revelar seu desconto especial!",
+        "subtitle": "O primeiro passo é o mais difícil — aqui está o nosso apoio para você 💖",
+        "scratchLabel": "Raspe para revelar",
+        "revealTitle": "75% OFF",
+        "revealSubtitle": "no seu Plano Pessoal",
+        "appliedNote": "Adicionado automaticamente no carrinho"
+      },
+      "titleAfterName": ", alcance seu objetivo de",
+      "offerTitle": "GARANTA SEU PLANO PESSOAL—",
+      "offerTitleAccent": "AGORA 75% OFF!",
+      "timerPillLabel": "Oferta válida por",
+      "singlePlan": {
+        "id": "desafio-28",
+        "recommendedLabel": "Recomendado pra você",
+        "urgencyLabel": "Esse desconto acaba hoje",
+        "title": "DESAFIO 28 DIAS",
+        "badge": "Plano Vitalício",
+        "oldPrice": "R$ 97,90",
+        "newPrice": "R$ 27,90",
+        "oldPerDay": "R$ 4,66",
+        "perDay": "R$ 0,93"
+      },
+      "guaranteeLink": "GARANTIA DE REEMBOLSO DE 90 DIAS",
+      "discountBoxLabel": "75% DE DESCONTO ADICIONADO",
+      "ctaLabel": "OBTER MEU PLANO PERSONALIZADO",
+      "disclaimer": "Pagamento único — sem mensalidades e sem cobranças recorrentes. Você recebe acesso vitalício ao seu plano personalizado imediatamente após a confirmação do pagamento.",
+      "disclaimer2": "O Pilates na Parede usará suas informações de pagamento para simplificar os futuros pagamentos.",
+      "social": {
+        "title": "Mais de 15 milhões",
+        "caption": "de pessoas transformaram suas vidas com o Pilates na Parede",
+        "rating": "4,8 de 5",
+        "reviewsLine": "Mais de 351.000 avaliações de 5 estrelas dos usuários 🤩"
+      },
+      "comparison": {
+        "title": "Perca peso **sem abandonar seus alimentos** favoritos",
+        "discountPillLabel": "75% DE DESCONTO POR",
+        "leftTitle": "Dietas restritivas",
+        "leftImage": "assets/full/e73/woman-restrictive-diets-DpxUbO9H.webp",
+        "leftBullets": [
+          "Evitar suas comidas preferidas",
+          "Recuperar o peso"
+        ],
+        "rightTitle": "Programa Pilates na Parede",
+        "rightImage": "assets/full/e73/woman-simple-plan-C-Djt0Hk.png",
+        "rightBullets": [
+          "Desfrutar alimentos sem culpa",
+          "Manter o peso"
+        ]
+      },
+      "reviews": {
+        "title": "Resultado das nossas alunas",
+        "items": [
+          {
+            "image": "assets/full/results/r1-marcia.webp",
+            "result": "-5 kg em apenas 14 dias",
+            "name": "Márcia R., 46 anos",
+            "text": "Eu achava que na minha idade não conseguiria mais emagrecer. Fiz os treinos em casa sem pular nenhum dia e minha barriga desinchou muito — até minha postura melhorou!"
+          },
+          {
+            "image": "assets/full/results/r2-anapaula.webp",
+            "result": "-7 kg em apenas 21 dias",
+            "name": "Ana Paula T., 29 anos",
+            "text": "Eu sempre desistia na primeira semana. Dessa vez o plano era tão simples que virou rotina: perdi medidas, ganhei definição e uma disposição que eu não sentia há anos."
+          },
+          {
+            "image": "assets/full/results/r3-agatha.webp",
+            "result": "-9 kg em apenas 28 dias",
+            "name": "Agatha L., 33 anos",
+            "text": "Não acreditava que 15 minutos por dia fariam diferença. Na quarta semana as roupas já estavam sobrando e voltei a usar biquíni com confiança."
+          }
+        ]
+      },
+      "resultsTitle": "Obtenha resultados visíveis em 4 semanas!",
+      "checklist": [
+        "Você receberá uma única cobrança de R$ 27,90 hoje — pagamento único, sem mensalidades.",
+        "Acesso vitalício: pague uma vez e use o plano para sempre.",
+        "Sem renovação automática e sem nenhuma cobrança futura.",
+        "Garantia de reembolso de 90 dias — se não ficar satisfeita, devolvemos seu dinheiro.",
+        "Sua compra está vinculada a nossos <a href=\"#\" onclick=\"return false\">Termos</a> e à nossa <a href=\"#\" onclick=\"return false\">Política de Privacidade</a>"
+      ],
+      "guarantee": {
+        "image": "assets/full/e73/moneyback-CqPMATbO.webp",
+        "title": "Garantia De Reembolso De 90 Dias",
+        "body": "Seu sucesso é nossa prioridade. Se você não sentir satisfação com os resultados, basta nos avisar dentro de 90 dias após a cobrança, **e faremos o reembolso total — sem perguntas**. Para mais detalhes, consulte nossa **Política de Cancelamento e Reembolso**.",
+        "links": [
+          "Política de Privacidade",
+          "Política de Cancelamento e Reembolso",
+          "Termos de Uso"
+        ]
+      },
+      "paymentTitle": "Pagamento seguro garantido",
+      "paymentIcons": [
+        "assets/full/e73/dark_gpay.svg",
+        "assets/full/e73/visa-BwrHB4LS.svg",
+        "assets/full/e73/mc-B20bDhZW.svg",
+        "assets/full/e73/maestro-CIGcW3vF.svg",
+        "assets/full/e73/ae-NcgevO01.svg",
+        "assets/full/e73/android-F8137bmS.svg"
+      ]
+    }
+  ]
+}

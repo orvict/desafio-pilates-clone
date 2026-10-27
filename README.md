@@ -14,9 +14,9 @@ Depois acesse `http://localhost:8080`.
 
 ## Escopo
 
-- Fluxo interativo com 8 etapas
+- Fluxo completo com 77 etapas da oferta original
 - Layout responsivo para desktop e celular
-- Ativos visuais locais
+- 138 ativos visuais locais
 - Checkout externo integrado à PerfectPay
 - Meta Pixel com eventos `PageView` e `InitiateCheckout`
 - Sem coleta ou armazenamento das respostas do quiz
