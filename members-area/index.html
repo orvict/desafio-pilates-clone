@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#120914">
+  <title>Área de Membros | Pilates na Parede</title>
+  <meta name="description" content="Aulas, cronograma e bônus do Desafio de 21 Dias de Pilates na Parede.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../" aria-label="Pilates na Parede">
+      <span class="brand-mark">P</span>
+      <span>Pilates na Parede</span>
+    </a>
+    <div class="top-actions">
+      <span class="welcome">Bem-vinda ao seu desafio</span>
+      <a class="app-link" href="https://www.desafiopilatesbr.site/" target="_blank" rel="noopener">Abrir aplicativo <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">SEU PROGRAMA EXCLUSIVO</span>
+        <h1>Desafio de <em>21 dias</em><br>de Pilates na Parede</h1>
+        <p>Treinos curtos, cronograma completo e materiais de apoio para você criar uma rotina leve e consistente em casa.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://www.desafiopilatesbr.site/" target="_blank" rel="noopener">Começar meu treino</a>
+          <button class="button ghost" data-scroll-lessons>Ver conteúdo</button>
+        </div>
+        <div class="progress-card">
+          <div class="progress-copy"><span>Seu progresso</span><strong id="progress-label">0 de 8 aulas</strong></div>
+          <div class="progress-track"><span id="progress-bar"></span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="halo"></div>
+        <img src="../assets/full/e02/wall_pilates_7a3ccf7b8f.webp" alt="">
+        <div class="floating-card"><strong>21</strong><span>dias para cuidar<br>de você</span></div>
+      </div>
+    </section>
+
+    <section class="content" id="conteudo">
+      <div class="section-heading">
+        <div><span class="eyebrow">CONTEÚDO DO PROGRAMA</span><h2>Tudo que você precisa,<br>em um só lugar</h2></div>
+        <p>Siga os módulos na ordem e marque cada aula como concluída. Seu progresso fica salvo neste navegador.</p>
+      </div>
+
+      <div class="course-layout">
+        <aside class="module-nav" aria-label="Módulos do curso">
+          <button class="module-tab active" data-module="app"><span class="module-number">01</span><span><strong>Acesse o aplicativo</strong><small>1 aula</small></span></button>
+          <button class="module-tab" data-module="challenge"><span class="module-number">02</span><span><strong>Desafio 21D</strong><small>6 aulas</small></span></button>
+          <button class="module-tab" data-module="bonus"><span class="module-number">03</span><span><strong>Bônus do desafio</strong><small>1 aula · 3 materiais</small></span></button>
+        </aside>
+
+        <div class="lesson-panels">
+          <section class="lesson-panel active" data-panel="app">
+            <div class="panel-intro"><span>MÓDULO 01</span><h3>Acesse o aplicativo</h3><p>É no aplicativo que os 21 treinos, seu progresso e seu histórico ficam organizados.</p></div>
+            <article class="featured-lesson">
+              <div class="featured-image"><img src="../assets/full/e42/young_pilates_banner_5_23eace61ed.webp" alt="Mulher praticando pilates"><span class="pill">Aplicativo oficial</span></div>
+              <div class="featured-copy"><span class="lesson-kicker">AULA 01</span><h4>Acesse o aplicativo aqui abaixo</h4><p>Crie ou entre na sua conta e siga o treino indicado para cada dia do desafio.</p><a class="button primary" href="https://www.desafiopilatesbr.site/cadastro?utm_source=areademembros" target="_blank" rel="noopener">Acessar aplicativo</a><button class="complete" data-complete="app-access">○ Marcar como concluída</button></div>
+            </article>
+          </section>
+
+          <section class="lesson-panel" data-panel="challenge">
+            <div class="panel-intro"><span>MÓDULO 02</span><h3>Desafio 21D</h3><p>Conheça o programa, consulte o cronograma e comece sua sequência de treinos.</p></div>
+            <div class="lesson-grid">
+              <article class="lesson-card"><div class="thumb thumb-one"><span class="play">▶</span><span class="duration">3 min</span></div><div class="lesson-body"><span>AULA 01</span><h4>Desafio completo</h4><p>Visão geral do programa e acesso à sequência completa no aplicativo.</p><a href="https://www.desafiopilatesbr.site/" target="_blank" rel="noopener">Abrir treino ↗</a><button class="complete" data-complete="challenge-full">○ Concluir</button></div></article>
+              <article class="lesson-card"><div class="thumb thumb-document"><span class="doc-icon">21</span><span class="duration">PDF</span></div><div class="lesson-body"><span>AULA 02</span><h4>Cronograma do desafio</h4><p>Baixe o plano dos 21 dias e acompanhe sua evolução.</p><a href="./assets/Desafio-21-Dias-Pilates-na-Parede.pdf" target="_blank">Baixar cronograma ↓</a><button class="complete" data-complete="schedule">○ Concluir</button></div></article>
+              <article class="lesson-card"><div class="thumb thumb-two"><span class="play">▶</span><span class="duration">1 min</span></div><div class="lesson-body"><span>AULA 03</span><h4>Apresentação do desafio</h4><p>Como funciona a jornada e como aproveitar cada etapa.</p><a href="https://www.desafiopilatesbr.site/" target="_blank" rel="noopener">Abrir aplicativo ↗</a><button class="complete" data-complete="intro-one">○ Concluir</button></div></article>
+              <article class="lesson-card"><div class="thumb thumb-three"><span class="play">▶</span><span class="duration">2 min</span></div><div class="lesson-body"><span>AULA 04</span><h4>Exercícios do desafio 01</h4><p>Primeira sequência de movimentos para ativar o corpo.</p><a href="https://www.desafiopilatesbr.site/" target="_blank" rel="noopener">Começar treino ↗</a><button class="complete" data-complete="exercise-one">○ Concluir</button></div></article>
+              <article class="lesson-card"><div class="thumb thumb-four"><span class="play">▶</span><span class="duration">2 min</span></div><div class="lesson-body"><span>AULA 05</span><h4>Exercícios do desafio 02</h4><p>Segunda sequência para continuar evoluindo com segurança.</p><a href="https://www.desafiopilatesbr.site/" target="_blank" rel="noopener">Começar treino ↗</a><button class="complete" data-complete="exercise-two">○ Concluir</button></div></article>
+              <article class="lesson-card"><div class="thumb thumb-five"><span class="play">▶</span><span class="duration">55 s</span></div><div class="lesson-body"><span>AULA 06</span><h4>Apresentação do desafio 02</h4><p>Orientações finais para manter o ritmo até o dia 21.</p><a href="https://www.desafiopilatesbr.site/" target="_blank" rel="noopener">Continuar desafio ↗</a><button class="complete" data-complete="intro-two">○ Concluir</button></div></article>
+            </div>
+          </section>
+
+          <section class="lesson-panel" data-panel="bonus">
+            <div class="panel-intro"><span>MÓDULO 03</span><h3>Bônus do Desafio 21D</h3><p>Materiais extras para potencializar seus resultados durante e depois do desafio.</p></div>
+            <div class="bonus-grid">
+              <a class="download-card" href="./assets/Cha-Asiatico-Anticelulite.pdf" target="_blank"><span class="download-icon">↓</span><span><small>BÔNUS 01 · PDF</small><strong>Chá Asiático Anticelulite</strong><em>Guia natural para incluir na sua rotina</em></span></a>
+              <a class="download-card" href="./assets/Cronograma-Reeducacao-Alimentar.pdf" target="_blank"><span class="download-icon">↓</span><span><small>BÔNUS 02 · PDF</small><strong>Cronograma de Reeducação Alimentar</strong><em>O desafio em casa</em></span></a>
+              <a class="download-card" href="./assets/Dieta-100-Personalizada.pdf" target="_blank"><span class="download-icon">↓</span><span><small>BÔNUS 03 · PDF</small><strong>Dieta 100% Personalizada</strong><em>Material complementar do programa</em></span></a>
+            </div>
+            <button class="complete bonus-complete" data-complete="bonus-pack">○ Marcar módulo como concluído</button>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span class="brand"><span class="brand-mark">P</span><span>Pilates na Parede</span></span><p>Seu corpo, seu ritmo, sua transformação.</p></footer>
+  <script src="./app.js"></script>
+</body>
+</html>
