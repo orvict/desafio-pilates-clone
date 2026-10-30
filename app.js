@@ -277,69 +277,64 @@ function renderOffer(step) {
       <span class="offer-kicker">✓ SEU PLANO PERSONALIZADO ESTÁ PRONTO</span>
       <h1><span>${escapeHtml(name)},</span> comece hoje sua transformação com Pilates na Parede</h1>
       <p>Um plano simples, progressivo e feito para a sua rotina — em casa e sem equipamentos.</p>
-      <div class="timer-pill">${md(step.timerPillLabel)} <strong id="timer">10:00</strong></div>
+      <div class="timer-pill">Pagamento único • acesso liberado após a confirmação</div>
     </section>
 
     <div class="checkout-grid">
       <article class="price-card checkout-card">
-        <div class="card-ribbon">${md(step.singlePlan.recommendedLabel)}</div>
-        <span class="lifetime">✓ ${md(step.singlePlan.badge)}</span>
-        <h2>${md(step.singlePlan.title)}</h2>
+        <div class="card-ribbon">PLANO COMPLETO</div>
+        <span class="lifetime">✓ Acesso ao programa</span>
+        <h2>DESAFIO 21 DIAS</h2>
         <ul class="included-list">
-          <li><i>✓</i><span>Plano completo de <strong>28 dias</strong></span></li>
+          <li><i>✓</i><span>Plano completo de <strong>21 dias</strong></span></li>
           <li><i>✓</i><span>Treinos rápidos para fazer <strong>em casa</strong></span></li>
           <li><i>✓</i><span>Exercícios sem aparelhos e para iniciantes</span></li>
-          <li><i>✓</i><span>Sugestões nutricionais personalizadas</span></li>
-          <li><i>✓</i><span>Acesso imediato e vitalício</span></li>
+          <li><i>✓</i><span>Área de aulas organizada por dia</span></li>
+          <li><i>✓</i><span>Acesso liberado após a confirmação do pagamento</span></li>
         </ul>
-        <div class="price-zone"><div><small>De ${md(step.singlePlan.oldPrice)} por apenas</small><strong>${md(step.singlePlan.newPrice)}</strong><span>${md(step.singlePlan.perDay)} por dia</span></div><b>ECONOMIZE<br>R$ 70,00</b></div>
+        <div class="price-zone price-zone-simple"><div><small>Pagamento único</small><strong>${md(step.singlePlan.newPrice)}</strong><span>sem mensalidade e sem renovação automática</span></div></div>
         <a class="primary checkout pulse" href="${checkout}" target="_blank" rel="noopener noreferrer">QUERO COMEÇAR AGORA</a>
-        <div class="trust-row"><span>🔒 Compra segura</span><span>⚡ Acesso imediato</span><span>↩ 90 dias de garantia</span></div>
-        <small class="one-time">Pagamento único • sem mensalidades • sem renovação automática</small>
+        <p class="checkout-note">Você será direcionada para o ambiente seguro da PerfectPay para concluir o pagamento.</p>
+        <div class="trust-row"><span>🔒 PerfectPay</span><span>⚡ Acesso imediato</span><span>↩ Garantia de 7 dias</span><span>💳 PIX e cartão</span></div>
+        <small class="one-time">Pagamento único • sem mensalidades • suporte por e-mail</small>
       </article>
 
       <aside class="order-summary">
         <span>RESUMO DO PEDIDO</span><h3>Pilates na Parede</h3>
-        <div><span>Desafio de 28 dias</span><strong>${md(step.singlePlan.oldPrice)}</strong></div>
-        <div class="discount"><span>Desconto especial</span><strong>- R$ 70,00</strong></div>
+        <div><span>Desafio de 21 dias</span><strong>${md(step.singlePlan.newPrice)}</strong></div>
         <div class="total"><span>Total hoje</span><strong>${md(step.singlePlan.newPrice)}</strong></div>
-        <p>Você paga uma única vez e recebe acesso vitalício.</p>
+        <p>Você paga uma única vez. Não existe mensalidade nem renovação automática.</p>
         <a class="primary checkout" href="${checkout}" target="_blank" rel="noopener noreferrer">FINALIZAR COMPRA</a>
-        <small>🔐 Seus dados são protegidos</small>
+        <small>🔐 Pagamento processado com segurança pela PerfectPay</small>
       </aside>
     </div>
 
     <section class="what-you-get"><span class="section-tag">TUDO QUE VOCÊ RECEBE</span><h2>Seu plano completo para sair do zero e continuar</h2><div>${[
-      ["▦","Calendário de 28 dias","Uma rotina clara para saber exatamente o que fazer a cada dia."],
+      ["▦","Calendário de 21 dias","Uma rotina clara para saber exatamente o que fazer a cada dia."],
       ["▶","Treinos guiados","Movimentos simples de Pilates na Parede, mesmo para iniciantes."],
-      ["🥗","Orientação alimentar","Sugestões práticas para apoiar seu objetivo sem dietas impossíveis."],
-      ["⌂","Treine onde quiser","Sem academia, sem aparelhos e no horário que cabe na sua rotina."]
+      ["⌂","Treine onde quiser","Sem academia, sem aparelhos e no horário que cabe na sua rotina."],
+      ["✉","Suporte por e-mail","Conte com um canal de suporte para dúvidas de acesso e pagamento."]
     ].map(([icon,title,text]) => `<article><i>${icon}</i><h3>${title}</h3><p>${text}</p></article>`).join("")}</div></section>
 
-    <div class="social-proof"><span class="section-tag">COMUNIDADE REAL</span><h2>${md(step.social.title)}</h2><p>${md(step.social.caption)}</p><strong>★★★★★ <b>${md(step.social.rating)}</b></strong><p>${md(step.social.reviewsLine)}</p></div>
-    <section class="comparison-section"><span class="section-tag">UM MÉTODO SUSTENTÁVEL</span><h2>${md(step.comparison.title)}</h2><div class="comparison">${[[step.comparison.leftTitle,step.comparison.leftImage,step.comparison.leftBullets,"bad"],[step.comparison.rightTitle,step.comparison.rightImage,step.comparison.rightBullets,"good"]].map(([title,image,items,kind]) => `<div class="${kind}"><h3>${md(title)}</h3><img src="${escapeHtml(image)}" alt="">${items.map(item => `<p>${kind === "good" ? "✓" : "×"} ${md(item)}</p>`).join("")}</div>`).join("")}</div></section>
-    <section class="testimonial-section"><span class="section-tag">RESULTADOS DAS ALUNAS</span><h2>${md(step.reviews.title)}</h2><div class="reviews">${step.reviews.items.map(review => `<article><img src="${escapeHtml(review.image)}" alt=""><div><strong>${md(review.result)}</strong><h3>${md(review.name)}</h3><p>${md(review.text)}</p></div></article>`).join("")}</div></section>
-
-    <section class="decision-card"><h2>${md(step.resultsTitle)}</h2><div class="checklist">${step.checklist.map(item => `<p><i>✓</i><span>${escapeHtml(plain(item))}</span></p>`).join("")}</div><a class="primary checkout pulse" href="${checkout}" target="_blank" rel="noopener noreferrer">SIM, QUERO MEU PLANO</a></section>
-    <div class="guarantee"><img src="${escapeHtml(step.guarantee.image)}" alt=""><div><span class="section-tag">RISCO ZERO</span><h2>${md(step.guarantee.title)}</h2><p>${md(step.guarantee.body)}</p></div></div>
+    <section class="decision-card"><span class="section-tag">COMPRA TRANSPARENTE</span><h2>Você sabe exatamente o que está comprando</h2><div class="checklist">
+      <p><i>✓</i><span>Uma única cobrança de ${md(step.singlePlan.newPrice)}.</span></p>
+      <p><i>✓</i><span>Sem mensalidade e sem renovação automática.</span></p>
+      <p><i>✓</i><span>Pagamento por PIX ou cartão no checkout da PerfectPay.</span></p>
+      <p><i>✓</i><span>Acesso liberado após a confirmação do pagamento.</span></p>
+      <p><i>✓</i><span>Garantia de 7 dias para solicitar o reembolso.</span></p>
+    </div><a class="primary checkout pulse" href="${checkout}" target="_blank" rel="noopener noreferrer">SIM, QUERO MEU PLANO</a></section>
+    <div class="guarantee"><div class="guarantee-mark" aria-hidden="true"><strong>7</strong><span>DIAS</span></div><div><span class="section-tag">GARANTIA</span><h2>Garantia de reembolso de 7 dias</h2><p>Você pode solicitar o cancelamento em até sete dias corridos após a confirmação da compra. Consulte a <a href="reembolso.html">Política de Reembolso</a> para saber como pedir.</p></div></div>
 
     <section class="faq"><span class="section-tag">DÚVIDAS FREQUENTES</span><h2>Antes de começar</h2>
       <details open><summary>É assinatura ou pagamento único?</summary><p>Pagamento único. Não existe mensalidade nem renovação automática.</p></details>
       <details><summary>Quando recebo o acesso?</summary><p>Logo após a confirmação do pagamento, você recebe as instruções de acesso.</p></details>
       <details><summary>Preciso de equipamentos?</summary><p>Não. O plano foi pensado para ser feito em casa usando apenas uma parede.</p></details>
-      <details><summary>E se eu não gostar?</summary><p>Você conta com garantia de 90 dias, conforme a política de reembolso.</p></details>
+      <details><summary>Como funciona a garantia?</summary><p>Você pode solicitar o reembolso em até 7 dias corridos após a confirmação da compra.</p></details>
+      <details><summary>Como falo com o suporte?</summary><p>Envie um e-mail para <a href="mailto:piilatessuporte@gmail.com">piilatessuporte@gmail.com</a>.</p></details>
     </section>
 
-    <section class="secure-close"><span>🔒 PAGAMENTO SEGURO</span><h2>Comece seu desafio hoje</h2><p>${md(step.disclaimer)}</p><a class="primary checkout final-cta pulse" href="${checkout}" target="_blank" rel="noopener noreferrer">OBTER MEU PLANO POR ${md(step.singlePlan.newPrice)}</a><div class="payment-icons">${step.paymentIcons.map(icon => `<img src="${escapeHtml(icon)}" alt="">`).join("")}</div></section>
-  </div><div class="sticky-offer"><span>${md(step.stickyBarLabel)} <b id="sticky-timer">10:00</b></span><div><strong>${md(step.singlePlan.newPrice)}</strong><a class="checkout" href="${checkout}" target="_blank" rel="noopener noreferrer">${md(step.stickyCtaLabel)}</a></div></div>`, "offer-screen wide");
-  let seconds = step.countdownSeconds || 600;
-  const tick = () => {
-    const label = `${String(Math.floor(seconds / 60)).padStart(2,"0")}:${String(seconds % 60).padStart(2,"0")}`;
-    document.querySelector("#timer").textContent = label;
-    document.querySelector("#sticky-timer").textContent = label;
-    if (seconds > 0) seconds--;
-  };
-  tick(); timerHandle = setInterval(tick, 1000);
+    <section class="secure-close"><span>🔒 PAGAMENTO SEGURO PELA PERFECTPAY</span><h2>Comece seu desafio hoje</h2><p>Pagamento único de ${md(step.singlePlan.newPrice)}, sem mensalidade. O acesso é liberado após a confirmação do pagamento.</p><a class="primary checkout final-cta pulse" href="${checkout}" target="_blank" rel="noopener noreferrer">OBTER MEU PLANO POR ${md(step.singlePlan.newPrice)}</a><div class="payment-badges"><span>PIX</span><span>Visa</span><span>Mastercard</span><span>Cartão</span></div><p class="support-line">Dúvidas? <a href="mailto:piilatessuporte@gmail.com">Fale com o suporte</a></p><nav class="legal-links-offer" aria-label="Links legais"><a href="privacidade.html">Privacidade</a><a href="termos.html">Termos de Uso</a><a href="reembolso.html">Reembolso</a></nav></section>
+  </div><div class="sticky-offer"><span>Pagamento único • PerfectPay</span><div><strong>${md(step.singlePlan.newPrice)}</strong><a class="checkout" href="${checkout}" target="_blank" rel="noopener noreferrer">QUERO COMEÇAR</a></div></div>`, "offer-screen wide");
   document.querySelectorAll(".checkout").forEach(link => link.addEventListener("click", () => {
     if (typeof window.fbq === "function") window.fbq("track", "InitiateCheckout");
   }));

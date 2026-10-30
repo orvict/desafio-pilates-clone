@@ -427,8 +427,8 @@
       "subtitle": "Parece que você combina bem com o Pilates na Parede... Agora é hora de superar suas metas.",
       "chartImage": "assets/full/e18/eligibility_pt_BR_9017195e56.png",
       "infoCard": {
-        "bold": "Com base no histórico de dados do Pilates na Parede para mulheres na faixa dos 20 anos",
-        "text": "Veja os primeiros resultados já na primeira semana e mantenha o ritmo rumo ao seu peso ideal!"
+        "bold": "Um programa progressivo para fazer em casa",
+        "text": "Comece no seu ritmo e avance com consistência, respeitando os limites do seu corpo."
       },
       "ctaLabel": "Incrível!"
     },
@@ -1691,14 +1691,14 @@
       "id": "processing-final",
       "type": "sp-processing",
       "variant": "trustpilot",
-      "socialTitle": "1.8 mi de mulheres usam o Pilates na Parede",
-      "verifiedLabel": "EMPRESA VERIFICADA",
+      "socialTitle": "Seu plano está quase pronto",
+      "verifiedLabel": "PLANO PERSONALIZADO",
       "review": {
-        "title": "O Pilates na Parede está aprovado!",
-        "body": "Desde que comecei a usar o aplicativo, eu já notei uma diferença. O peso está diminuindo, mas o mais importante é que me sinto bem melhor. Estou escolhendo alimentos mais saudáveis e com mais energia.",
-        "author": "Yuna"
+        "title": "Treinos organizados para a sua rotina",
+        "body": "O programa reúne aulas guiadas e uma sequência simples de acompanhar em casa, respeitando o seu ritmo.",
+        "author": "Pilates na Parede"
       },
-      "trustpilotLine": "Ideal • 21.269 avaliações",
+      "trustpilotLine": "21 dias • treinos guiados • em casa",
       "bottomLabel": "Criando seu programa de personalizado de pilates",
       "durationMs": 6000
     },
@@ -1711,12 +1711,12 @@
       "ctaLabel": "Ver meu plano",
       "mapImage": "assets/full/e68/world-map-EXNTrbko.svg",
       "mapStat": {
-        "number": "1,8 milhão",
-        "caption": "de mulheres já fazem parte"
+        "number": "21 dias",
+        "caption": "de treinos organizados"
       },
       "disclaimers": [
-        "Ao enviar seu endereço de e-mail, você também pode receber e-mails de marketing do Pilates na Parede sobre nossos serviços. Você pode cancelar a inscrição a qualquer momento.",
-        "O seu uso do Pilates na Parede está vinculado aos <a href=\"#\" onclick=\"return false\">Termos de Uso</a> e à <a href=\"#\" onclick=\"return false\">Política de Privacidade</a>."
+        "O endereço informado é usado nesta experiência para personalizar a apresentação do seu plano.",
+        "O seu uso do Pilates na Parede está vinculado aos <a href=\"termos.html\">Termos de Uso</a> e à <a href=\"privacidade.html\">Política de Privacidade</a>."
       ]
     },
     {
@@ -1773,11 +1773,11 @@
         },
         {
           "icon": "food",
-          "text": "Sugestões nutricionais personalizadas para alcançar melhores resultados"
+          "text": "Sequência organizada para acompanhar sua evolução durante 21 dias"
         },
         {
           "icon": "chat",
-          "text": "Assistente de bem-estar personalizado 24/7"
+          "text": "Suporte por e-mail para dúvidas de acesso e pagamento"
         }
       ],
       "ctaLabel": "Obter meu plano"
@@ -1795,47 +1795,47 @@
     {
       "id": "offer",
       "type": "sp-offer",
-      "backRedirectUrl": "https://wvltrack.com/t/teste-backredirect",
+      "backRedirectUrl": "",
       "countdownSeconds": 600,
-      "stickyBarLabel": "75% de desconto reservado por:",
+      "stickyBarLabel": "Pagamento único:",
       "stickyCtaLabel": "OBTER MEU PLANO",
       "scratchPopup": {
-        "titleAfterName": ", raspe para revelar seu desconto especial!",
-        "subtitle": "O primeiro passo é o mais difícil — aqui está o nosso apoio para você 💖",
-        "scratchLabel": "Raspe para revelar",
-        "revealTitle": "75% OFF",
-        "revealSubtitle": "no seu Plano Pessoal",
-        "appliedNote": "Adicionado automaticamente no carrinho"
+        "titleAfterName": ", seu plano está pronto!",
+        "subtitle": "Confira os detalhes antes de continuar para o pagamento.",
+        "scratchLabel": "Ver plano",
+        "revealTitle": "R$ 27,90",
+        "revealSubtitle": "pagamento único",
+        "appliedNote": "Sem mensalidade"
       },
       "titleAfterName": ", alcance seu objetivo de",
       "offerTitle": "GARANTA SEU PLANO PESSOAL—",
-      "offerTitleAccent": "AGORA 75% OFF!",
+      "offerTitleAccent": "POR R$ 27,90",
       "timerPillLabel": "Oferta válida por",
       "singlePlan": {
-        "id": "desafio-28",
-        "recommendedLabel": "Recomendado pra você",
-        "urgencyLabel": "Esse desconto acaba hoje",
-        "title": "DESAFIO 28 DIAS",
-        "badge": "Plano Vitalício",
-        "oldPrice": "R$ 97,90",
+        "id": "desafio-21",
+        "recommendedLabel": "Plano completo",
+        "urgencyLabel": "Pagamento único",
+        "title": "DESAFIO 21 DIAS",
+        "badge": "Acesso ao programa",
+        "oldPrice": "R$ 27,90",
         "newPrice": "R$ 27,90",
         "oldPerDay": "R$ 4,66",
         "perDay": "R$ 0,93"
       },
-      "guaranteeLink": "GARANTIA DE REEMBOLSO DE 90 DIAS",
-      "discountBoxLabel": "75% DE DESCONTO ADICIONADO",
+      "guaranteeLink": "GARANTIA DE REEMBOLSO DE 7 DIAS",
+      "discountBoxLabel": "PAGAMENTO ÚNICO",
       "ctaLabel": "OBTER MEU PLANO PERSONALIZADO",
-      "disclaimer": "Pagamento único — sem mensalidades e sem cobranças recorrentes. Você recebe acesso vitalício ao seu plano personalizado imediatamente após a confirmação do pagamento.",
-      "disclaimer2": "O Pilates na Parede usará suas informações de pagamento para simplificar os futuros pagamentos.",
+      "disclaimer": "Pagamento único — sem mensalidades e sem cobranças recorrentes. O acesso é liberado após a confirmação do pagamento.",
+      "disclaimer2": "O pagamento é processado com segurança pela PerfectPay.",
       "social": {
-        "title": "Mais de 15 milhões",
-        "caption": "de pessoas transformaram suas vidas com o Pilates na Parede",
-        "rating": "4,8 de 5",
-        "reviewsLine": "Mais de 351.000 avaliações de 5 estrelas dos usuários 🤩"
+        "title": "Programa de 21 dias",
+        "caption": "Treinos guiados para fazer em casa",
+        "rating": "",
+        "reviewsLine": "Resultados variam de pessoa para pessoa."
       },
       "comparison": {
-        "title": "Perca peso **sem abandonar seus alimentos** favoritos",
-        "discountPillLabel": "75% DE DESCONTO POR",
+        "title": "Crie uma rotina de movimento **sem sair de casa**",
+        "discountPillLabel": "PAGAMENTO ÚNICO",
         "leftTitle": "Dietas restritivas",
         "leftImage": "assets/full/e73/woman-restrictive-diets-DpxUbO9H.webp",
         "leftBullets": [
@@ -1850,40 +1850,21 @@
         ]
       },
       "reviews": {
-        "title": "Resultado das nossas alunas",
-        "items": [
-          {
-            "image": "assets/full/results/r1-marcia.webp",
-            "result": "-5 kg em apenas 14 dias",
-            "name": "Márcia R., 46 anos",
-            "text": "Eu achava que na minha idade não conseguiria mais emagrecer. Fiz os treinos em casa sem pular nenhum dia e minha barriga desinchou muito — até minha postura melhorou!"
-          },
-          {
-            "image": "assets/full/results/r2-anapaula.webp",
-            "result": "-7 kg em apenas 21 dias",
-            "name": "Ana Paula T., 29 anos",
-            "text": "Eu sempre desistia na primeira semana. Dessa vez o plano era tão simples que virou rotina: perdi medidas, ganhei definição e uma disposição que eu não sentia há anos."
-          },
-          {
-            "image": "assets/full/results/r3-agatha.webp",
-            "result": "-9 kg em apenas 28 dias",
-            "name": "Agatha L., 33 anos",
-            "text": "Não acreditava que 15 minutos por dia fariam diferença. Na quarta semana as roupas já estavam sobrando e voltei a usar biquíni com confiança."
-          }
-        ]
+        "title": "Depoimentos",
+        "items": []
       },
-      "resultsTitle": "Obtenha resultados visíveis em 4 semanas!",
+      "resultsTitle": "Comece uma rotina guiada de 21 dias",
       "checklist": [
         "Você receberá uma única cobrança de R$ 27,90 hoje — pagamento único, sem mensalidades.",
-        "Acesso vitalício: pague uma vez e use o plano para sempre.",
+        "Acesso ao programa liberado após a confirmação do pagamento.",
         "Sem renovação automática e sem nenhuma cobrança futura.",
-        "Garantia de reembolso de 90 dias — se não ficar satisfeita, devolvemos seu dinheiro.",
+        "Garantia de reembolso de 7 dias, conforme a política publicada.",
         "Sua compra está vinculada a nossos <a href=\"#\" onclick=\"return false\">Termos</a> e à nossa <a href=\"#\" onclick=\"return false\">Política de Privacidade</a>"
       ],
       "guarantee": {
         "image": "assets/full/e73/moneyback-CqPMATbO.webp",
-        "title": "Garantia De Reembolso De 90 Dias",
-        "body": "Seu sucesso é nossa prioridade. Se você não sentir satisfação com os resultados, basta nos avisar dentro de 90 dias após a cobrança, **e faremos o reembolso total — sem perguntas**. Para mais detalhes, consulte nossa **Política de Cancelamento e Reembolso**.",
+        "title": "Garantia de Reembolso de 7 Dias",
+        "body": "Você pode solicitar o cancelamento em até sete dias corridos após a confirmação da compra. Consulte a **Política de Cancelamento e Reembolso** para saber como pedir.",
         "links": [
           "Política de Privacidade",
           "Política de Cancelamento e Reembolso",
