@@ -39,6 +39,12 @@ export default async (request: Request) => {
     return json({ error: "Invalid JSON" }, 400)
   }
 
+  const expectedPublicToken = Netlify.env.get("PERFECTPAY_PUBLIC_TOKEN") ?? ""
+  const receivedPublicToken = String(payload.token ?? "")
+  if (expectedPublicToken && !safeEqual(receivedPublicToken, expectedPublicToken)) {
+    return json({ error: "Invalid PerfectPay token" }, 401)
+  }
+
   const productCode = String(pick(payload, "product.code", "product_code", "product_code_id") ?? "")
   const planCode = String(pick(payload, "plan.code", "plan_code") ?? "")
   const allowedProduct = Netlify.env.get("PERFECTPAY_PRODUCT_CODE") ?? "PPPBFJET"
