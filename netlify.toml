@@ -6,12 +6,6 @@
   function = "protect-members"
   path = "/members-area/*"
 
-[[redirects]]
-  from = "/api/perfectpay"
-  to = "/.netlify/functions/perfectpay"
-  status = 200
-  force = true
-
 [[headers]]
   for = "/login/*"
   [headers.values]
