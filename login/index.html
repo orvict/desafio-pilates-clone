@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#6d385f">
+  <title>Entrar | Pilates na Parede</title>
+  <meta name="description" content="Acesso seguro às aulas do Desafio de 21 Dias de Pilates na Parede.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css?v=1">
+</head>
+<body>
+  <main class="auth-layout">
+    <section class="welcome">
+      <a class="brand" href="/"><span class="brand-mark">P</span><span>Pilates na Parede</span></a>
+      <div>
+        <span class="eyebrow">ÁREA EXCLUSIVA DE ALUNAS</span>
+        <h1>Suas aulas,<br><em>sempre com você.</em></h1>
+        <p>Entre com o mesmo e-mail usado na compra para acessar os 21 dias de treino e todos os materiais de apoio.</p>
+      </div>
+      <small>Ambiente seguro • Acesso individual</small>
+    </section>
+
+    <section class="auth-card" aria-live="polite">
+      <div class="tabs" role="tablist" aria-label="Escolha como acessar">
+        <button class="tab active" type="button" data-tab="login" role="tab">Já tenho senha</button>
+        <button class="tab" type="button" data-tab="signup" role="tab">Primeiro acesso</button>
+      </div>
+
+      <div class="notice" id="notice" hidden></div>
+
+      <form id="login-form" class="form active" data-panel="login">
+        <div class="heading"><h2>Bem-vinda de volta</h2><p>Use o e-mail cadastrado na sua compra.</p></div>
+        <label>E-mail<input type="email" name="email" autocomplete="email" inputmode="email" required></label>
+        <label>Senha<input type="password" name="password" autocomplete="current-password" minlength="8" required></label>
+        <button class="primary" type="submit">Entrar nas aulas</button>
+        <button class="link-button" type="button" data-forgot>Esqueci minha senha</button>
+      </form>
+
+      <form id="signup-form" class="form" data-panel="signup" hidden>
+        <div class="heading"><h2>Crie seu acesso</h2><p>O e-mail precisa ser o mesmo informado na PerfectPay.</p></div>
+        <label>Nome<input type="text" name="name" autocomplete="name" required></label>
+        <label>E-mail da compra<input type="email" name="email" autocomplete="email" inputmode="email" required></label>
+        <label>Crie uma senha<input type="password" name="password" autocomplete="new-password" minlength="8" required><small>Mínimo de 8 caracteres.</small></label>
+        <button class="primary" type="submit">Criar meu acesso</button>
+      </form>
+
+      <form id="recovery-form" class="form" data-panel="recovery" hidden>
+        <div class="heading"><h2>Recuperar senha</h2><p>Enviaremos um link para seu e-mail cadastrado.</p></div>
+        <label>E-mail<input type="email" name="email" autocomplete="email" inputmode="email" required></label>
+        <button class="primary" type="submit">Enviar link</button>
+        <button class="link-button" type="button" data-back>Voltar para entrar</button>
+      </form>
+
+      <form id="password-form" class="form" data-panel="password" hidden>
+        <div class="heading"><h2>Nova senha</h2><p>Escolha uma nova senha para sua conta.</p></div>
+        <label>Nova senha<input type="password" name="password" autocomplete="new-password" minlength="8" required></label>
+        <button class="primary" type="submit">Salvar nova senha</button>
+      </form>
+
+      <p class="support">Precisa de ajuda? Responda ao e-mail de confirmação da compra.</p>
+    </section>
+  </main>
+  <script type="module" src="./auth.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[edge_functions]]
+  function = "protect-members"
+  path = "/members-area/*"
+
+[[redirects]]
+  from = "/api/perfectpay"
+  to = "/.netlify/functions/perfectpay"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/login/*"
+  [headers.values]
+    Cache-Control = "no-store"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "same-origin"
+
+[[headers]]
+  for = "/members-area/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "same-origin"
