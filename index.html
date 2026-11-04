@@ -6,6 +6,14 @@
     <meta name="description" content="Quiz de 21 dias de Pilates na Parede" />
     <title>Pilates na Parede</title>
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      // Netlify Identity sends confirmation and recovery links to the site root.
+      // Forward those callbacks to the page that completes the authentication flow.
+      (function () {
+        var callback = /(?:^|&)(?:confirmation_token|recovery_token|invite_token|access_token|error)=/.test(location.hash.slice(1));
+        if (callback) location.replace('/login/' + location.search + location.hash);
+      }());
+    </script>
     <!-- Meta Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)
